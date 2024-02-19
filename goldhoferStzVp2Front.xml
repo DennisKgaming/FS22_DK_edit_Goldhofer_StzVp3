@@ -1,0 +1,448 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<vehicle type="semiTrailerFront">
+    <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
+
+    <storeData>
+        <name>STZ-VP 2 Front</name>
+        <functions>
+            <function>$l10n_function_lowLoader</function>
+            <function>$l10n_function_semiTrailer</function>
+        </functions>
+        <image>stores/store_goldhoferStzVp2Front.dds</image>
+        <price>12000</price>
+        <lifetime>600</lifetime>
+        <rotation>0</rotation>
+        <brand>GOLDHOFER</brand>
+        <category>lowloaders</category>
+    </storeData>
+
+    <base>
+        <typeDesc>$l10n_typeDesc_lowLoader</typeDesc>
+        <filename>goldhoferStzVp2Front.i3d</filename>
+        <size width="3" length="4.5" />
+        <components>
+            <component centerOfMass="0 0.1 -1.5" solverIterationCount="10" mass="950"/>
+        </components>
+        <schemaOverlay attacherJointPosition="0 0" name="IMPLEMENT" />
+    </base>
+	
+	<wheels>
+        <wheelConfigurations>
+            <wheelConfiguration name="Implement" price="0" brand="LIZARD" >
+				<wheels>
+					<wheel filename="$data/shared/wheels/tires/lizard/implement/295_70R18.xml" isLeft="true" hasTireTracks="true" >
+						<physics radius="0.01" width="0.01" restLoad="0.9" repr="wheelDummy" forcePointRatio="0.5" initialCompression="12" suspTravel="0.2" spring="30" damper="60" frictionScale="1.5" mass="0.1" />
+					</wheel>
+				</wheels>
+	        </wheelConfiguration>
+			<wheelConfiguration name="HT3" price="0" brand="CONTINENTAL">
+                <wheels>
+					<wheel filename="HybridHT3/HRFF_HT3.xml" configId="HRFF" isLeft="true" hasTireTracks="true" >
+						<physics radius="0.01" width="0.01" restLoad="0.9" repr="wheelDummy" forcePointRatio="0.5" initialCompression="12" suspTravel="0.2" spring="30" damper="60" frictionScale="1.5" mass="0.1" />
+					</wheel>
+                </wheels>
+				<objectChange node="wheelDummy" scaleActive="1.1 1.045 1.045" scaleInactive="1 1 1"/>
+			</wheelConfiguration>
+        </wheelConfigurations>
+		<hubs>
+            <color0 useBaseColor="true" />
+            <color1>SHARED_BLACK2</color1>
+            <hub linkNode="wheelDummy"   filename="$data/shared/wheels/hubs/hub_n10_8.xml" isLeft="true"  scale="0.25 0.25 0.25" />
+       </hubs>
+	</wheels>
+	
+	<rimColorConfigurations useDefaultColors="true" price="300" defaultColorIndex="0">
+		<rimColorConfiguration name="$l10n_ui_colorGrey"   color="SHARED_WHITE1"         material="18" price="0"/>
+		<rimColorConfiguration name="$l10n_ui_colorChrome" color="SHARED_WHITE2"         material="3"  price="300"/>
+        <rimColorConfiguration name="$l10n_ui_colorWhite"  color="SHARED_WHITE2"         material="0"  price="300"/>
+        <rimColorConfiguration name="$l10n_ui_colorBlack"  color="SHARED_DA_METAL_BLACK" material="0"  price="300"/>
+		<rimColorConfiguration name="$l10n_POLISHEDMETAL" material="8" color="0.98 0.98 0.98" price="300"/>
+		<rimColorConfiguration name="$l10n_ui_colorSilver" color="SHARED_WHITE1" material="18" price="300"/>
+		<rimColorConfiguration name="$l10n_SPECIALBLUE1"  color="0 0 1 0" price="300"/>
+		<rimColorConfiguration name="$l10n_SPECIALYELLOW" color="1.0000 0.7231 0.0000 0" price="300" />
+		<rimColorConfiguration name="$l10n_SPECIALBLUE2" color="0 0.09 0.09 0" price="300" />
+		<rimColorConfiguration name="$l10n_SPECIALGREEN" color="0.488 0.687 0.027" price="300" />
+		<rimColorConfiguration name="$l10n_BLACK" color="0 0 0 0" price="300" />
+		<rimColorConfiguration name="$l10n_MANRED" color="0.5605 0.0037 0.0037 0" price="300" />
+		<rimColorConfiguration name="$l10n_MANOLDGREEN" color="0.1878 0.3006 0.2159 0" price="300" />
+		<rimColorConfiguration name="MAN Beige" color="0.3021 0.2549 0.1734 0" price="300" />
+		<rimColorConfiguration name="TATRA" color="0.0200 0.2800 0.1900 0" price="300" />
+		<rimColorConfiguration name="$l10n_BROWN2" color="0.0886 0.0203 0.0012 0" price="300" />
+		<rimColorConfiguration name="$l10n_BLUE" material="0" color="0 0 1 0" price="300"/>
+		<rimColorConfiguration name="$l10n_BLUE1" color="0.0000 0.4047 0.7519 0" price="300" />
+		<rimColorConfiguration name="$l10n_BLUE2" color="0.0055 0.0170 0.0265 0" price="300" />
+		<rimColorConfiguration name="$l10n_BLUE3" color="0.0019 0.0059 0.0090 0" price="300" />
+		<rimColorConfiguration name="$l10n_GREEN1" color="0.1070 0.2086 0.2462 0" price="300" />
+		<rimColorConfiguration name="$l10n_GREEN2" color="0.0265 0.6592 0.3204 0" price="300" />
+		<rimColorConfiguration name="$l10n_GREEN3" color="0.0072 0.2758 0.0528 0" price="300" />
+		<rimColorConfiguration name="$l10n_GREEN4" color="0.0000 1.0000 0.0415 0" price="300" />
+		<rimColorConfiguration name="Pink" color="0.5924 0.1871 0.3723 0" price="300" />
+		<rimColorConfiguration name="$l10n_PINK/RED" color="0.8751 0.0017 0.0303 0" price="300" />
+		<rimColorConfiguration name="$l10n_BERRY" color="0.1087 0.0210 0.0370 0" price="300" />
+		<rimColorConfiguration name="$l10n_WHITE" color="1.0000 1.0000 1.0000 0" price="300" />
+		<rimColorConfiguration name="Orange" color="0.9157 0.1220 0.0066 0" price="300" />
+		<rimColorConfiguration name="$l10n_DARKGRAY" color="0.1220 0.1199 0.1199 0" price="300" />
+		<rimColorConfiguration name="$l10n_YELLOW1" color="0.8913 0.6456 0.2120 0" price="300" />
+		<rimColorConfiguration name="$l10n_YELLOW2" color="0.5054 0.3066 0.0231 0" price="300" />
+		<rimColorConfiguration name="$l10n_YELLOW3" color="0.8227 0.9131 0.0000 0" price="300" />
+		<rimColorConfiguration name="Violet 1" color="0.0802 0.0513 0.7231 0" price="300" />
+		<rimColorConfiguration name="Violet 2" color="0.0090 0.0014 0.0619 0" price="300" />
+		<rimColorConfiguration name="NAVY" color="0.0529 0.0865 0.0242 1" price="300" />
+		<rimColorConfiguration name="$l10n_SPECIALBLUE1METAL" material="27"  color="0 0 1 0" price="600"/>
+		<rimColorConfiguration name="$l10n_SPECIALYELLOWMETAL" material="27" color="1.0000 0.7231 0.0000 0" price="600" />
+		<rimColorConfiguration name="$l10n_SPECIALBLUE2METAL" material="27" color="0 0.09 0.09 0" price="600" />
+		<rimColorConfiguration name="$l10n_SPECIALGREENMETAL" material="27" color="0.488 0.687 0.027" price="600" />
+		<rimColorConfiguration name="$l10n_BLACKMETAL" material="27" color="0 0 0 0" price="600" />
+		<rimColorConfiguration name="$l10n_MANREDMETAL" material="27" color="0.5605 0.0037 0.0037 0" price="600" />
+		<rimColorConfiguration name="$l10n_MANOLDGREENMETAL" material="27" color="0.1878 0.3006 0.2159 0" price="600" />
+		<rimColorConfiguration name="MAN Beige Metal" material="27" color="0.3021 0.2549 0.1734 0" price="600" />
+		<rimColorConfiguration name="TATRA Metal" material="27" color="0.0200 0.2800 0.1900 0" price="600" />
+		<rimColorConfiguration name="$l10n_BROWNMETAL" material="27" color="0.0886 0.0203 0.0012 0" price="600" />
+		<rimColorConfiguration name="$l10n_BLUEMETAL" material="27" color="0 0 1 0" price="600"/>
+		<rimColorConfiguration name="$l10n_BLUE1METAL" material="27" color="0.0000 0.4047 0.7519 0" price="600" />
+		<rimColorConfiguration name="$l10n_BLUE2METAL" material="27" color="0.0055 0.0170 0.0265 0" price="600" />
+		<rimColorConfiguration name="$l10n_BLUE3METAL" material="27" color="0.0019 0.0059 0.0090 0" price="600" />
+		<rimColorConfiguration name="$l10n_GREEN1METAL" material="27" color="0.1070 0.2086 0.2462 0" price="600" />
+		<rimColorConfiguration name="$l10n_GREEN2METAL" material="27" color="0.0265 0.6592 0.3204 0" price="600" />
+		<rimColorConfiguration name="$l10n_GREEN3METAL" material="27" color="0.0072 0.2758 0.0528 0" price="600" />
+		<rimColorConfiguration name="$l10n_GREEN4METAL" material="27" color="0.0000 1.0000 0.0415 0" price="600" />
+		<rimColorConfiguration name="Pink Metal" material="27" color="0.5924 0.1871 0.3723 0" price="600" />
+		<rimColorConfiguration name="$l10n_PINK/REDMETAL" material="27" color="0.8751 0.0017 0.0303 0" price="600" />
+		<rimColorConfiguration name="$l10n_BERRYMETAL" material="27" color="0.1087 0.0210 0.0370 0" price="600" />
+		<rimColorConfiguration name="$l10n_WHITEMETAL" material="27" color="1.0000 1.0000 1.0000 0" price="600" />
+		<rimColorConfiguration name="Orange Metal" material="27" color="0.9157 0.1220 0.0066 0" price="600" />
+		<rimColorConfiguration name="$l10n_DARKGRAYMETAL" material="27" color="0.1220 0.1199 0.1199 0" price="600" />
+		<rimColorConfiguration name="$l10n_YELLOW1METAL" material="27" color="0.8913 0.6456 0.2120 0" price="600" />
+		<rimColorConfiguration name="$l10n_YELLOW2METAL" material="27" color="0.5054 0.3066 0.0231 0" price="600" />
+		<rimColorConfiguration name="$l10n_YELLOW3METAL" material="27" color="0.8227 0.9131 0.0000 0" price="600" />
+		<rimColorConfiguration name="Violet 1 Metal" material="27" color="0.0802 0.0513 0.7231 0" price="600" />
+		<rimColorConfiguration name="Violet 2 Metal" material="27" color="0.0090 0.0014 0.0619 0" price="600" />
+		<rimColorConfiguration name="NAVY METAL" material="27" color="0.0529 0.0865 0.0242 1" price="600" />
+    </rimColorConfigurations>
+	
+    <attachable>
+        <inputAttacherJoints>
+            <inputAttacherJoint node="attacherJoint" jointType="semitrailer" attacherHeight="1.33"/>
+        </inputAttacherJoints>
+        <support animationName="moveSupport" />
+    </attachable>
+	
+    <attacherJoints>
+        <attacherJoint node="attacherJointBack" jointType="semitrailerHook" lowerRotLimit="0 0 0" allowsJointLimitMovement="false" enableCollision="false" >
+            <schema position="1 0" rotation="0" invertX="false" />
+            <attachSound template="HEADER_ATTACH_01" linkNode="0>" />
+        </attacherJoint>
+    </attacherJoints>
+
+	<connectionHoses>
+        <hose inputAttacherJointIndices="1" type="airDoubleRed"    node="0>0|6|4"    	length="1.8" diameter="0.015" minCenterPointOffset="0 -0.2 0" maxCenterPointOffset="0 0 0" outgoingAdapter="DEFAULT" socket="air_red"/>
+        <hose inputAttacherJointIndices="1" type="airDoubleYellow" node="0>0|6|3" 		length="1.8" diameter="0.015" minCenterPointOffset="0 -0.2 0" maxCenterPointOffset="0 0 0" outgoingAdapter="DEFAULT" socket="air_yellow"/>
+		<hose inputAttacherJointIndices="1" type="electric"        node="0>0|6|0"  		length="1.8" diameter="0.008" minCenterPointOffset="0 -0.2 0" maxCenterPointOffset="0 0 0" outgoingAdapter="DEFAULT" socket="electric"/>
+		<hose inputAttacherJointIndices="1" type="hydraulicIn"    node="0>0|6|1"    		length="1.8" diameter="0.015" minCenterPointOffset="0 -0.2 0" maxCenterPointOffset="0 0 0" outgoingAdapter="DEFAULT" socket="hydraulic01"/>
+        <hose inputAttacherJointIndices="1" type="hydraulicOut" node="0>0|6|2" 			length="1.8" diameter="0.015" minCenterPointOffset="0 -0.2 0" maxCenterPointOffset="0 0 0" outgoingAdapter="DEFAULT" socket="hydraulic01"/>
+    </connectionHoses>
+	
+    <lights>
+        <sharedLight linkNode="rearLightOvalWhite01_07" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLight23White.xml" />
+        <sharedLight linkNode="rearLightOvalWhite01_08" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLight23White.xml" />
+        <sharedLight linkNode="rearLightOvalOrange01_01" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+        <sharedLight linkNode="rearLightOvalOrange01_02" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+		<sharedLight linkNode="rearLightOvalWhite01_01" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLight23White.xml" />
+        <sharedLight linkNode="rearLightOvalWhite01_02" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLight23White.xml" />
+        <sharedLight linkNode="rearLightOvalWhite01_03" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLight23White.xml" />
+        <sharedLight linkNode="rearLightOvalWhite01_04" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLight23White.xml" />
+        <sharedLight linkNode="rearLightOvalWhite01_05" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLight23White.xml" />
+        <sharedLight linkNode="rearLightOvalWhite01_06" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLight23White.xml" />
+		<sharedLight linkNode="0>0|4|2|4" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+        <sharedLight linkNode="0>0|4|2|5" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+        <sharedLight linkNode="0>0|4|2|6" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+        <sharedLight linkNode="0>0|4|3|4" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+        <sharedLight linkNode="0>0|4|3|5" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+        <sharedLight linkNode="0>0|4|3|6" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+        <realLights>
+            <high>
+                <turnLightLeft node="turnLightLeftFront" />
+                <turnLightRight node="turnLightRightFront" />
+            </high>
+        </realLights>
+    </lights>
+	
+	<foldable>
+        <foldingConfigurations>
+            <foldingConfiguration>
+				<foldingParts>
+					<foldingPart animationName="verbreitern" speedScale="1" />
+				</foldingParts>		
+            </foldingConfiguration>
+        </foldingConfigurations>
+    </foldable>
+	
+    <animations>
+        <animation name="moveSupport">
+            <part node="supportBoxes" startTime="0"    endTime="0.7"  startTrans="0 -0.056 0.066"  endTrans="0 -0.649 0.066" />
+            <part node="supportBoxes" startTime="0.6"  endTime="0.65" visibility="false" />
+            <part node="supportBoxes" startTime="0.65" endTime="0.7"  visibility="true" />
+        </animation>
+		<animation name="verbreitern">
+			<part node="0>0|4|2" startTime="0" endTime="1" startTrans="0 0 0" endTrans="0.4 0 0" />
+			<part node="0>0|4|3" startTime="0" endTime="1" startTrans="0 0 0" endTrans="-0.4 0 0" />
+        </animation>
+    </animations>
+
+	<cylindered>
+		<movingTools>
+			<movingTool node="0>0|1" >
+                <controls axis="AXIS_CRANE_ARM3" invertAxis="false" mouseSpeedFactor="0.5" iconName="CRANE_ARM1_ROTATE_X" />
+                <rotation rotSpeed="25" rotAcceleration="80" rotMax="8" rotMin="-8" startRot="0" rotationAxis="1"/>
+                <attacherJoint jointIndices="1" />
+				<dependentPart node="0>0|5|0"/>
+			</movingTool>
+			<movingTool node="0>0|0" >
+                <controls axis="AXIS_CRANE_ARM" invertAxis="false" mouseSpeedFactor="0.5" iconName="CRANE_ARM2_TRANSLATE" />
+                <translation transSpeed="0.6" transAcceleration="20" transMax="2.956" transMin="2.267" translationAxis="3" />
+				<inputAttacherJoint value="true"/>
+			</movingTool>			
+        </movingTools>
+        <movingParts>
+			<movingPart node="0>0|5" referencePoint="0>0|1|2" referenceFrame="0>0|1|2" isActiveDirty="true" maxUpdateDistance="50">
+                <translatingPart node="0>0|5|0"/>
+            </movingPart>
+        </movingParts>
+    </cylindered>
+	
+	<tensionBelts>
+        <tensionBeltsConfigurations title="$l10n_BackHoldSystem">
+			<tensionBeltsConfiguration name="$l10n_ui_auto">
+                <tensionBelts linkNode="tensionBelts" jointNode="0>" maxEdgeLength="0.1" geometryBias="0.01" ratchetPosition="0.2" defaultOffset="0.1" defaultOffsetSide="0.1" defaultHeight="4" activationTrigger="beltActivationTrigger">
+					<tensionBelt startNode="beltStart1" endNode="beltEnd1">
+                        <intersectionNode node="tensionBelt01Intersection01"/>
+                        <intersectionNode node="tensionBelt01Intersection02"/>
+                    </tensionBelt>
+                    <tensionBelt startNode="beltStart2" endNode="beltEnd2">
+                        <intersectionNode node="tensionBelt02Intersection01"/>
+                        <intersectionNode node="tensionBelt02Intersection02"/>
+                    </tensionBelt>
+					<sounds>
+                        <addBelt template="beltOpen"/>
+                        <removeBelt template="beltClose"/>
+                    </sounds>
+                </tensionBelts>
+			</tensionBeltsConfiguration>
+			<tensionBeltsConfiguration name="$l10n_configuration_tensionBelts">
+                <tensionBelts linkNode="tensionBelts" jointNode="0>" maxEdgeLength="0.1" geometryBias="0.01" ratchetPosition="0.2" defaultOffset="0.1" defaultOffsetSide="0.1" defaultHeight="4" activationTrigger="beltActivationTrigger">
+					<tensionBelt startNode="beltStart1" endNode="beltEnd1">
+                        <intersectionNode node="tensionBelt01Intersection01"/>
+                        <intersectionNode node="tensionBelt01Intersection02"/>
+                    </tensionBelt>
+                    <tensionBelt startNode="beltStart2" endNode="beltEnd2">
+                        <intersectionNode node="tensionBelt02Intersection01"/>
+                        <intersectionNode node="tensionBelt02Intersection02"/>
+                    </tensionBelt>
+					<sounds>
+                        <addBelt template="beltOpen"/>
+                        <removeBelt template="beltClose"/>
+                    </sounds>
+                </tensionBelts>
+				<objectChange node="dynamicMountTrigger" translationActive="0 12 0" translationInactive="0 0 0"/>
+			</tensionBeltsConfiguration>
+        </tensionBeltsConfigurations>
+    </tensionBelts>
+	
+	<ai>
+        <agentAttachment jointNode="attacherJoint" width="2.5" height="1.8" length="3.8" lengthOffset="0.2" heightOffset="0.5" hasCollision="false"/>
+    </ai>
+
+    <baseMaterial>
+        <material name="goldhoferStzVp2_mat" baseNode="goldhoferFront_vis">
+            <shaderParameter name="colorMat0" value="GOLDHOFER_BLUE"/>
+			<shaderParameter name="colorMat7" value="0.5271 0.5271 0.5271 0"/>
+        </material>
+    </baseMaterial>
+
+    <baseMaterialConfigurations price="1500" useDefaultColors="true" defaultColorIndex="0" >
+        <baseMaterialConfiguration name="$l10n_SPECIALBLUE2"  material="0" color="0 0.09 0.09 0" price="0" />
+        <baseMaterialConfiguration name="$l10n_SPECIALBLUE1" material="0" color="0 0 1 0" price="1500"/>
+		<baseMaterialConfiguration name="$l10n_SPECIALYELLOW"  material="0" color="1.0000 0.7231 0.0000 0" price="1500" />
+		<baseMaterialConfiguration name="$l10n_SPECIALGREEN"  material="0" color="0.488 0.687 0.027" price="1500" />
+		<baseMaterialConfiguration name="$l10n_VolvoPurple" material="0" color="VOLVO_PURPLE1"  price="1500"/>
+		<baseMaterialConfiguration name="$l10n_VolvoRED" material="0" color="VOLVO_RED1"  price="1500"/>
+		<baseMaterialConfiguration name="$l10n_VolvoGREEN" material="0" color="VOLVO_BM_GREEN1"  price="1500"/>
+		<baseMaterialConfiguration name="$l10n_VolvoBLACK" material="0" color="SHARED_DA_METAL_BLACK"  price="1500"/>
+		<baseMaterialConfiguration name="$l10n_configuration_chassisColor" material="16" color="0.0296 0.0296 0.0319 16" price="1500" />
+        <baseMaterialConfiguration name="$l10n_MANRED" material="0" color="0.5605 0.0037 0.0037 0" price="1500" />
+		<baseMaterialConfiguration name="$l10n_MANOLDGREEN" material="0" color="0.1878 0.3006 0.2159 0" price="1500"/>
+		<baseMaterialConfiguration name="MAN Beige" material="0" color="0.3021 0.2549 0.1734 0" price="1500"/>
+		<baseMaterialConfiguration name="$l10n_BLACK" material="0" color="0 0 0 0" price="1500"/>
+		<baseMaterialConfiguration name="TATRA" material="0" color="0.0200 0.2800 0.1900 0" price="1500"/>
+		<baseMaterialConfiguration name="$l10n_BROWN2" material="0" color="0.0886 0.0203 0.0012 0" price="1500"/>
+		<baseMaterialConfiguration name="$l10n_BLUE1" material="0" color="0.0000 0.4047 0.7519 0" price="1500"/>
+		<baseMaterialConfiguration name="$l10n_BLUE2" material="0" color="0.0055 0.0170 0.0265 0" price="1500"/>
+		<baseMaterialConfiguration name="$l10n_BLUE3" material="0" color="0.0019 0.0059 0.0090 0" price="1500"/>
+		<baseMaterialConfiguration name="$l10n_GREEN1" material="0" color="0.1070 0.2086 0.2462 0" price="1500"/>
+		<baseMaterialConfiguration name="$l10n_GREEN2" material="0" color="0.0265 0.6592 0.3204 0" price="1500"/>
+		<baseMaterialConfiguration name="$l10n_GREEN3" material="0" color="0.0072 0.2758 0.0528 0" price="1500"/>
+		<baseMaterialConfiguration name="$l10n_GREEN4" material="0" color="0.0000 1.0000 0.0415 0" price="1500"/>
+		<baseMaterialConfiguration name="Pink" material="0" color="0.5924 0.1871 0.3723 0" price="1500"/>
+		<baseMaterialConfiguration name="$l10n_PINK/RED" material="0" color="0.8751 0.0017 0.0303 0" price="1500"/>
+		<baseMaterialConfiguration name="$l10n_BERRY" material="0" color="0.1087 0.0210 0.0370 0" price="1500"/>
+		<baseMaterialConfiguration name="$l10n_WHITE" material="0" color="1.0000 1.0000 1.0000 0" price="1500"/>
+		<baseMaterialConfiguration name="Orange" material="0" color="0.9157 0.1220 0.0066 0" price="1500"/>
+		<baseMaterialConfiguration name="$l10n_DARKGRAY" material="0" color="0.1220 0.1199 0.1199 0" price="1500"/>
+		<baseMaterialConfiguration name="$l10n_YELLOW1" material="0" color="0.8913 0.6456 0.2120 0" price="1500"/>
+		<baseMaterialConfiguration name="$l10n_YELLOW2" material="0" color="0.5054 0.3066 0.0231 0" price="1500"/>
+		<baseMaterialConfiguration name="$l10n_YELLOW3" material="0" color="0.8227 0.9131 0.0000 0" price="1500"/>
+		<baseMaterialConfiguration name="Violet 1" material="0" color="0.0802 0.0513 0.7231 0" price="1500"/>
+		<baseMaterialConfiguration name="Violet 2" material="0" color="0.0090 0.0014 0.0619 0" price="1500"/>
+		<baseMaterialConfiguration name="NAVY" material="0" color="0.0529 0.0865 0.0242 1" price="1500"/>
+		<baseMaterialConfiguration name="$l10n_SPECIALBLUE1METAL" material="27" color="0 0 1 0" price="2500"/>
+		<baseMaterialConfiguration name="$l10n_SPECIALYELLOWMETAL" material="27" color="1.0000 0.7231 0.0000 0" price="2500"/>
+		<baseMaterialConfiguration name="$l10n_SPECIALBLUE2METAL" material="27" color="0 0.09 0.09 0" price="2500"/>
+		<baseMaterialConfiguration name="$l10n_SPECIALGREENMETAL" material="27" color="0.488 0.687 0.027" price="2500" />
+		<baseMaterialConfiguration name="$l10n_MANREDMETAL" material="27" color="0.5605 0.0037 0.0037 0" price="2500"/>
+		<baseMaterialConfiguration name="$l10n_MANOLDGREENMETAL" material="27" color="0.1878 0.3006 0.2159 0" price="2500"/>
+		<baseMaterialConfiguration name="MAN Beige Metal" material="27" color="0.3021 0.2549 0.1734 0" price="2500"/>
+		<baseMaterialConfiguration name="$l10n_BLACKMETAL" material="27" color="0 0 0 0" price="2500"/>
+		<baseMaterialConfiguration name="TATRA Metal" material="27" color="0.0200 0.2800 0.1900 0" price="2500"/>
+		<baseMaterialConfiguration name="$l10n_BROWNMETAL" material="27" color="0.0886 0.0203 0.0012 0" price="2500"/>
+		<baseMaterialConfiguration name="$l10n_BLUE1METAL" material="27" color="0.0000 0.4047 0.7519 0" price="2500"/>
+		<baseMaterialConfiguration name="$l10n_BLUE2METAL" material="27" color="0.0055 0.0170 0.0265 0" price="2500"/>
+		<baseMaterialConfiguration name="$l10n_BLUE3METAL" material="27" color="0.0019 0.0059 0.0090 0" price="2500"/>
+		<baseMaterialConfiguration name="$l10n_GREEN1METAL" material="27" color="0.1070 0.2086 0.2462 0" price="2500"/>
+		<baseMaterialConfiguration name="$l10n_GREEN2METAL" material="27" color="0.0265 0.6592 0.3204 0" price="2500"/>
+		<baseMaterialConfiguration name="$l10n_GREEN3METAL" material="27" color="0.0072 0.2758 0.0528 0" price="2500"/>
+		<baseMaterialConfiguration name="$l10n_GREEN4METAL" material="27" color="0.0000 1.0000 0.0415 0" price="2500"/>
+		<baseMaterialConfiguration name="Pink Metal" material="27" color="0.5924 0.1871 0.3723 0" price="2500"/>
+		<baseMaterialConfiguration name="$l10n_PINK/REDMETAL" material="27" color="0.8751 0.0017 0.0303 0" price="2500"/>
+		<baseMaterialConfiguration name="$l10n_BERRYMETAL" material="27" color="0.1087 0.0210 0.0370 0" price="2500"/>
+		<baseMaterialConfiguration name="$l10n_WHITEMETAL" material="27" color="1.0000 1.0000 1.0000 0" price="2500"/>
+		<baseMaterialConfiguration name="Orange Metal" material="27" color="0.9157 0.1220 0.0066 0" price="2500"/>
+		<baseMaterialConfiguration name="$l10n_DARKGRAYMETAL" material="27" color="0.1220 0.1199 0.1199 0" price="2500"/>
+		<baseMaterialConfiguration name="$l10n_YELLOW1METAL" material="27" color="0.8913 0.6456 0.2120 0" price="2500"/>
+		<baseMaterialConfiguration name="$l10n_YELLOW2METAL" material="27" color="0.5054 0.3066 0.0231 0" price="2500"/>
+		<baseMaterialConfiguration name="$l10n_YELLOW3METAL" material="27" color="0.8227 0.9131 0.0000 0" price="2500"/>
+		<baseMaterialConfiguration name="Violet 1 Metal" material="27" color="0.0802 0.0513 0.7231 0" price="2500"/>
+		<baseMaterialConfiguration name="Violet 2 Metal" material="27" color="0.0090 0.0014 0.0619 0" price="2500"/>
+		<baseMaterialConfiguration name="NAVY Metal" material="27" color="0.0529 0.0865 0.0242 1" price="2500"/>
+		<material name="goldhoferStzVp2_mat" shaderParameter="colorMat0" />
+    </baseMaterialConfigurations>
+	
+	<designMaterialConfigurations price="500" useDefaultColors="true" defaultColorIndex="3" >
+		<designMaterialConfiguration name="$l10n_SPECIALBLUE2"  material="0" color="0 0.09 0.09 0" price="0" />
+        <designMaterialConfiguration name="$l10n_SPECIALBLUE1" material="0" color="0 0 1 0" price="500"/>
+		<designMaterialConfiguration name="$l10n_SPECIALYELLOW"  material="0" color="1.0000 0.7231 0.0000 0" price="500" />
+		<designMaterialConfiguration name="$l10n_SPECIALGREEN"  material="0" color="0.488 0.687 0.027" price="500" />
+		<designMaterialConfiguration name="$l10n_VolvoPurple" material="0" color="VOLVO_PURPLE1"  price="500"/>
+		<designMaterialConfiguration name="$l10n_VolvoRED" material="0" color="VOLVO_RED1"  price="500"/>
+		<designMaterialConfiguration name="$l10n_VolvoGREEN" material="0" color="VOLVO_BM_GREEN1"  price="500"/>
+		<designMaterialConfiguration name="$l10n_VolvoBLACK" material="0" color="SHARED_DA_METAL_BLACK"  price="500"/>
+		<designMaterialConfiguration name="$l10n_configuration_chassisColor" material="16" color="0.0296 0.0296 0.0319 16" price="500" />
+        <designMaterialConfiguration name="$l10n_MANRED" material="0" color="0.5605 0.0037 0.0037 0" price="500" />
+		<designMaterialConfiguration name="$l10n_MANOLDGREEN" material="0" color="0.1878 0.3006 0.2159 0" price="500"/>
+		<designMaterialConfiguration name="MAN Beige" material="0" color="0.3021 0.2549 0.1734 0" price="500"/>
+		<designMaterialConfiguration name="$l10n_BLACK" material="0" color="0 0 0 0" price="500"/>
+		<designMaterialConfiguration name="TATRA" material="0" color="0.0200 0.2800 0.1900 0" price="500"/>
+		<designMaterialConfiguration name="$l10n_BROWN2" material="0" color="0.0886 0.0203 0.0012 0" price="500"/>
+		<designMaterialConfiguration name="$l10n_BLUE1" material="0" color="0.0000 0.4047 0.7519 0" price="500"/>
+		<designMaterialConfiguration name="$l10n_BLUE2" material="0" color="0.0055 0.0170 0.0265 0" price="500"/>
+		<designMaterialConfiguration name="$l10n_BLUE3" material="0" color="0.0019 0.0059 0.0090 0" price="500"/>
+		<designMaterialConfiguration name="$l10n_GREEN1" material="0" color="0.1070 0.2086 0.2462 0" price="500"/>
+		<designMaterialConfiguration name="$l10n_GREEN2" material="0" color="0.0265 0.6592 0.3204 0" price="500"/>
+		<designMaterialConfiguration name="$l10n_GREEN3" material="0" color="0.0072 0.2758 0.0528 0" price="500"/>
+		<designMaterialConfiguration name="$l10n_GREEN4" material="0" color="0.0000 1.0000 0.0415 0" price="500"/>
+		<designMaterialConfiguration name="Pink" material="0" color="0.5924 0.1871 0.3723 0" price="500"/>
+		<designMaterialConfiguration name="$l10n_PINK/RED" material="0" color="0.8751 0.0017 0.0303 0" price="500"/>
+		<designMaterialConfiguration name="$l10n_BERRY" material="0" color="0.1087 0.0210 0.0370 0" price="500"/>
+		<designMaterialConfiguration name="$l10n_WHITE" material="0" color="1.0000 1.0000 1.0000 0" price="500"/>
+		<designMaterialConfiguration name="Orange" material="0" color="0.9157 0.1220 0.0066 0" price="500"/>
+		<designMaterialConfiguration name="$l10n_DARKGRAY" material="0" color="0.1220 0.1199 0.1199 0" price="500"/>
+		<designMaterialConfiguration name="$l10n_YELLOW1" material="0" color="0.8913 0.6456 0.2120 0" price="500"/>
+		<designMaterialConfiguration name="$l10n_YELLOW2" material="0" color="0.5054 0.3066 0.0231 0" price="500"/>
+		<designMaterialConfiguration name="$l10n_YELLOW3" material="0" color="0.8227 0.9131 0.0000 0" price="500"/>
+		<designMaterialConfiguration name="Violet 1" material="0" color="0.0802 0.0513 0.7231 0" price="500"/>
+		<designMaterialConfiguration name="Violet 2" material="0" color="0.0090 0.0014 0.0619 0" price="500"/>
+		<designMaterialConfiguration name="NAVY" material="0" color="0.0529 0.0865 0.0242 1" price="500"/>
+		<designMaterialConfiguration name="$l10n_SPECIALBLUE1METAL" material="27" color="0 0 1 0" price="800"/>
+		<designMaterialConfiguration name="$l10n_SPECIALYELLOWMETAL" material="27" color="1.0000 0.7231 0.0000 0" price="800"/>
+		<designMaterialConfiguration name="$l10n_SPECIALBLUE2METAL" material="27" color="0 0.09 0.09 0" price="800"/>
+		<designMaterialConfiguration name="$l10n_SPECIALGREENMETAL" material="27" color="0.488 0.687 0.027" price="800" />
+		<designMaterialConfiguration name="$l10n_MANREDMETAL" material="27" color="0.5605 0.0037 0.0037 0" price="800"/>
+		<designMaterialConfiguration name="$l10n_MANOLDGREENMETAL" material="27" color="0.1878 0.3006 0.2159 0" price="800"/>
+		<designMaterialConfiguration name="MAN Beige Metal" material="27" color="0.3021 0.2549 0.1734 0" price="800"/>
+		<designMaterialConfiguration name="$l10n_BLACKMETAL" material="27" color="0 0 0 0" price="800"/>
+		<designMaterialConfiguration name="TATRA Metal" material="27" color="0.0200 0.2800 0.1900 0" price="800"/>
+		<designMaterialConfiguration name="$l10n_BROWNMETAL" material="27" color="0.0886 0.0203 0.0012 0" price="800"/>
+		<designMaterialConfiguration name="$l10n_BLUE1METAL" material="27" color="0.0000 0.4047 0.7519 0" price="800"/>
+		<designMaterialConfiguration name="$l10n_BLUE2METAL" material="27" color="0.0055 0.0170 0.0265 0" price="800"/>
+		<designMaterialConfiguration name="$l10n_BLUE3METAL" material="27" color="0.0019 0.0059 0.0090 0" price="800"/>
+		<designMaterialConfiguration name="$l10n_GREEN1METAL" material="27" color="0.1070 0.2086 0.2462 0" price="800"/>
+		<designMaterialConfiguration name="$l10n_GREEN2METAL" material="27" color="0.0265 0.6592 0.3204 0" price="800"/>
+		<designMaterialConfiguration name="$l10n_GREEN3METAL" material="27" color="0.0072 0.2758 0.0528 0" price="800"/>
+		<designMaterialConfiguration name="$l10n_GREEN4METAL" material="27" color="0.0000 1.0000 0.0415 0" price="800"/>
+		<designMaterialConfiguration name="Pink Metal" material="27" color="0.5924 0.1871 0.3723 0" price="800"/>
+		<designMaterialConfiguration name="$l10n_PINK/REDMETAL" material="27" color="0.8751 0.0017 0.0303 0" price="800"/>
+		<designMaterialConfiguration name="$l10n_BERRYMETAL" material="27" color="0.1087 0.0210 0.0370 0" price="800"/>
+		<designMaterialConfiguration name="$l10n_WHITEMETAL" material="27" color="1.0000 1.0000 1.0000 0" price="800"/>
+		<designMaterialConfiguration name="Orange Metal" material="27" color="0.9157 0.1220 0.0066 0" price="800"/>
+		<designMaterialConfiguration name="$l10n_DARKGRAYMETAL" material="27" color="0.1220 0.1199 0.1199 0" price="800"/>
+		<designMaterialConfiguration name="$l10n_YELLOW1METAL" material="27" color="0.8913 0.6456 0.2120 0" price="800"/>
+		<designMaterialConfiguration name="$l10n_YELLOW2METAL" material="27" color="0.5054 0.3066 0.0231 0" price="800"/>
+		<designMaterialConfiguration name="$l10n_YELLOW3METAL" material="27" color="0.8227 0.9131 0.0000 0" price="800"/>
+		<designMaterialConfiguration name="Violet 1 Metal" material="27" color="0.0802 0.0513 0.7231 0" price="800"/>
+		<designMaterialConfiguration name="Violet 2 Metal" material="27" color="0.0090 0.0014 0.0619 0" price="800"/>
+		<designMaterialConfiguration name="NAVY Metal" material="27" color="0.0529 0.0865 0.0242 1" price="800"/>
+		<material name="goldhoferStzVp2_mat" shaderParameter="colorMat7" />
+    </designMaterialConfigurations>
+	
+	<design3Configurations title="$l10n_warningSigns">
+        <design3Configuration name="$l10n_ui_no" price="0">		
+		</design3Configuration>
+		<design3Configuration name="$l10n_ui_yes" price="150">
+			<objectChange node="0>0|4|2" visibilityActive="true" visibilityInactive="false"/>
+			<objectChange node="0>0|4|3" visibilityActive="true" visibilityInactive="false"/>
+			<objectChange node="0>0|4|4" visibilityActive="true" visibilityInactive="false"/>
+		</design3Configuration>
+		<design3Configuration name="$l10n_ui_licensePlatePlacementBoth" price="300">
+			<objectChange node="0>0|4|2" visibilityActive="true" visibilityInactive="false"/>
+			<objectChange node="0>0|4|3" visibilityActive="true" visibilityInactive="false"/>
+			<objectChange node="0>0|4|4" visibilityActive="true" visibilityInactive="false"/>
+		</design3Configuration>
+	</design3Configurations>
+
+    <wearable wearDuration="480" workMultiplier="5" fieldMultiplier="2"/>
+    <washable dirtDuration="90" washDuration="1" workMultiplier="3" fieldMultiplier="2"/>
+
+    <i3dMappings>
+        <i3dMapping id="goldhoferFront_vis" node="0>0" />
+		<i3dMapping id="dynamicMountTrigger" node="0>3" />
+        <i3dMapping id="attacherJoint" node="0>0|0|0" />
+        <i3dMapping id="attacherJointBack" node="0>0|1|1" />
+        <i3dMapping id="sideMarker_09White_1" node="0>0|2|0|0" />
+        <i3dMapping id="sideMarker_09White_2" node="0>0|2|0|1" />
+        <i3dMapping id="sideMarker_09Orange_1" node="0>0|2|0|2" />
+        <i3dMapping id="sideMarker_09Orange_2" node="0>0|2|0|3" />
+        <i3dMapping id="rearLightOvalWhite01_01" node="0>0|4|3|0" />
+        <i3dMapping id="rearLightOvalWhite01_02" node="0>0|4|3|1" />
+        <i3dMapping id="rearLightOvalWhite01_03" node="0>0|4|3|2" />
+        <i3dMapping id="rearLightOvalWhite01_04" node="0>0|4|2|0" />
+        <i3dMapping id="rearLightOvalWhite01_05" node="0>0|4|2|1" />
+        <i3dMapping id="rearLightOvalWhite01_06" node="0>0|4|2|2" />
+        <i3dMapping id="rearLightOvalWhite01_07" node="0>0|2|0|10" />
+        <i3dMapping id="rearLightOvalWhite01_08" node="0>0|2|0|11" />
+        <i3dMapping id="rearLightOvalOrange01_01" node="0>0|2|0|12" />
+        <i3dMapping id="rearLightOvalOrange01_02" node="0>0|2|0|13" />
+        <i3dMapping id="turnLightLeftFront" node="0>0|2|1|0|0" />
+        <i3dMapping id="turnLightRightFront" node="0>0|2|1|1|0" />
+        <i3dMapping id="wheelDummy" node="0>0|3" />
+        <i3dMapping id="supportBoxes" node="0>0|1|3" />
+		<i3dMapping id="tensionBelts" node="0>2"/>
+        <i3dMapping id="beltStart1" node="0>2|0"/>
+        <i3dMapping id="beltEnd1" node="0>2|0|0"/>
+        <i3dMapping id="beltStart2" node="0>2|1"/>
+        <i3dMapping id="beltEnd2" node="0>2|1|0"/>
+		<i3dMapping id="beltActivationTrigger" node="0>2|2"/>	
+		<i3dMapping id="tensionBelt01Intersection01" node="0>2|0|1"/>
+        <i3dMapping id="tensionBelt01Intersection02" node="0>2|0|2"/>
+		<i3dMapping id="tensionBelt02Intersection01" node="0>2|1|1"/>
+        <i3dMapping id="tensionBelt02Intersection02" node="0>2|1|2"/>
+    </i3dMappings>
+</vehicle>

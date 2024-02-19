@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="79">
+	<author>HR Forst und Fahrzeugbau</author>
+	
+	<version>2.0.0.1</version>
+	
+	<iconFilename>icon_goldhoferStzVp.dds</iconFilename>
+	
+	<storeItems>
+		<storeItem rootNode="vehicle" xmlFilename="goldhoferStzVp2.xml"/>
+		<storeItem rootNode="vehicle" xmlFilename="goldhoferStzVp3.xml"/>
+	</storeItems>
+	
+	<title>
+        <en>Goldhofer STZ-VP Pack</en>
+	</title>
+	
+	<description>
+        <en>
+            <![CDATA[
+Goldhofer STZ-VP Pack
+
+In tough everyday transport, time is what counts most. This is why the STZ-VP 2 and 3 low bed trailer can be loaded quickly and easily from the front.
+With increasing weight and volume of the cargo, it is also crucial that the vehicles themselves are as light as possible and at the same time can carry high payloads.
+The STZ-VP 2 and 3 is the true champion here, doing the heavy lifting for you.
+
+The steering angle has been adjusted so that it optimally follows the towing vehicle.
+The neck can be tilted and the chassis can be lifted for significantly more ground clearance.
+The low bed has been significantly lengthened so that even the largest vehicles now have space.
+Low bed can be widened.
+Warning signs can be configured and extended.
+Additional drive-over ramps.
+
+Prices from:
+- STZ-VP2 : 40,000$
+- STZ-VP3 : 45,000$
+
+Note: In the shop, the Goldhofer can start to move at the options. This is due to the fact that the Goldhofer consists of 2 individual components and is reloaded each time.
+
+Changelog: 2.0.0.0
+- Various modifications to the STZ-VP3.
+- Added STZ-VP2 low loader.
+- Added drive over ramps.
+- Description changed.
+
+Changelog: 2.0.0.1
+- Fixed a bug in the attacher
+- Colors Revised and Volvo colors added
+- Kingpin replaced and sliding coupling added
+]]>
+        </en>
+     <de>
+<![CDATA[
+Goldhofer STZ-VP Pack
+
+Im harten Transportalltag zählt vor allem Zeit. Daher ist der Tiefbettauflieger vom Typ STZ-VP 2 und 3 einfach und zügig von vorne zu beladen. 
+Mit zunehmendem Gewicht und Volumen der Ladegüter ist darüber hinaus entscheidend, dass die Fahrzeuge selbst möglichst leicht sind und gleichzeitig hohe Nutzlasten aufnehmen können. 
+Hier ist der STZ-VP 2 und 3 der wahre Champion, der Ihnen die Schwerstarbeit abnimmt.
+
+Lenkwinkel wurde so angepasst das er optimal dem Zugfahrzeug hinterher fährt.
+Der Hals ist Neigbar und das Fahrwerk Liftbar für deutlich mehr Bodenfreiheit.
+Das Tiefbett wurde deutlich verlängert, so das nun auch die größten Fahrzeuge Platz haben.
+Tiefbett kann verbreitert werden.
+Warntafeln können konfiguriert und ausgeschoben werden.
+Zusätzliche Überfahrrampen.
+
+
+Preise ab:
+- STZ-VP2 : 40.000€
+- STZ-VP3 : 45.000€
+
+Hinweis: Im Shop kann der Goldhofer anfangen sich zu bewegen bei den Optionen. Das liegt daran das der Goldhofer aus 2 einzelnen Bauteilen besteht, und jedesmal neu geladen wird.
+
+Changelog: 2.0.0.0
+- Diverse Änderungen am STZ-VP3.
+- STZ-VP2 Tieflader hinzugefügt.
+- Überfahrrampen hinzugefügt.
+- Beschreibung geändert.
+
+Changelog: 2.0.0.1
+- Fehler im Attacher behoben
+- Farben Überarbeitet und Volvo Farben hinzugefügt
+- Königszapfen ausgetauscht, und verschiebbare Kupplung hinzugefügt
+]]>
+</de>
+	</description>
+	
+	<multiplayer supported="true"/>
+		
+	<l10n>
+		<text name="SheetsMiddle">			<en>Center Plates</en>				<de>Mittelbleche</de>				</text>
+		<text name="warningSigns">			<en>Warning Signs</en>				<de>Warntafeln</de>					</text>
+		<text name="Rampen"> 				<en>Ramps</en> 						<de>Rampen</de> 					</text>
+		<text name="RUL"> 					<en>Beacon Light</en> 				<de>Rundumleuchte</de> 				</text>
+        <text name="RULVersion"> 			<en>Beacon Lights Design</en> 		<de>Rundumleuchten Design</de>		</text>
+		<text name="beide"> 				<en>Left and Right</en> 			<de>Links und Rechts</de> 			</text>
+		<text name="BackHoldSystem"  >      <en>Holding System on Back</en>     <de>Haltesystem im Heck</de>       	</text>
+		<text name="VolvoPurple"  >			<en>Volvo Purple</en>				<de>Volvo Lila</de>					</text>
+		<text name="VolvoRED"  >			<en>Volvo Red</en>					<de>Volvo Rot</de>					</text>
+		<text name="VolvoGREEN"  >			<en>Volvo Green</en>				<de>Volvo Grün</de>					</text>
+		<text name="VolvoBLACK"  >			<en>Volvo Black</en>				<de>Volvo Schwarz</de>				</text>
+		<text name="Pink"  >				<en>Light Pink</en>					<de>Rosa</de>						</text>
+		<text name="POLISHEDMETAL"  >		<en>Polished Metal</en>				<de>Poliertes Metal</de>			</text>
+		<text name="SPECIALBLUE1" >			<en>Special Blue 1</en>				<de>Spezial Blau 1</de>				</text>
+		<text name="SPECIALYELLOW" >		<en>Special Yellow</en>				<de>Spezial Gelb</de>				</text>
+		<text name="SPECIALBLUE2" >			<en>Special Blue 2</en>				<de>Spezial Blau 2</de>				</text>
+		<text name="SPECIALGREEN" >			<en>Special Green</en>				<de>Spezial Grün</de>				</text>
+		<text name="BLACK" >				<en>Black</en>						<de>Schwarz</de>					</text>
+		<text name="MANRED" >				<en>MAN Red</en>					<de>MAN Rot</de>					</text>
+		<text name="MANOLDGREEN" >			<en>MAN Oldgreen</en>				<de>MAN Altgrün</de>				</text>
+		<text name="BROWN2" >				<en>Dark Brown</en>					<de>Dunkel Braun</de>				</text>
+		<text name="BLUE" >					<en>Blue</en>						<de>Blau</de>						</text>
+		<text name="BLUE1" >				<en>Blue 1</en>						<de>Blau 1</de>						</text>
+		<text name="BLUE2" >				<en>Blue 2</en>						<de>Blau 2</de>						</text>
+		<text name="BLUE3" >				<en>Blue 3</en>						<de>Blau 3</de>						</text>
+		<text name="GREEN1" >				<en>Green 1</en>					<de>Grün 1</de>						</text>
+		<text name="GREEN2" >				<en>Green 2</en>					<de>Grün 2</de>						</text>
+		<text name="GREEN3" >				<en>Green 3</en>					<de>Grün 3</de>						</text>
+		<text name="GREEN4" >				<en>Green 4</en>					<de>Grün 4</de>						</text>
+		<text name="PINK/RED" >				<en>Pink/Red</en>					<de>Pink/Rot</de>					</text>
+		<text name="BERRY" >				<en>Berry</en>						<de>Beere</de>						</text>
+		<text name="WHITE" >				<en>White</en>						<de>Weiß</de>						</text>
+		<text name="DARKGRAY" >				<en>Darkgray</en>					<de>Dunkelgrau</de>					</text>
+		<text name="YELLOW1" >				<en>Yellow 1</en>					<de>Gelb 1</de>						</text>
+		<text name="YELLOW2" >				<en>Yellow 2</en>					<de>Gelb 2</de>						</text>
+		<text name="YELLOW3" >				<en>Yellow 3</en>					<de>Gelb 3</de>						</text>
+		<text name="SPECIALBLUE1METAL" >	<en>Special Blue 1 Metal</en>		<de>Spezial Blau 1 Metal</de>		</text>
+		<text name="SPECIALYELLOWMETAL" >	<en>Special Yellow Metal</en>		<de>Spezial Gelb Metal</de>			</text>
+		<text name="SPECIALBLUE2METAL" >	<en>Special Blue 2 Metal</en>		<de>Spezial Blau 2 Metal</de>		</text>
+		<text name="SPECIALGREENMETAL" >	<en>Special Green Metal</en>		<de>Spezial Grün Metal</de>			</text>
+		<text name="BLACKMETAL" >			<en>Black Metal</en>				<de>Schwarz Metal</de>				</text>
+		<text name="MANREDMETAL" >			<en>MAN Red Metal</en>				<de>MAN Rot Metal</de>				</text>
+		<text name="MANOLDGREENMETAL" >		<en>MAN Oldgreen Metal</en>			<de>MAN Altgrün Metal</de>			</text>
+		<text name="BROWNMETAL" >			<en>Brown Metal</en>				<de>Braun Metal</de>				</text>
+		<text name="BLUEMETAL" >			<en>Blue Metal</en>					<de>Blau Metal</de>					</text>
+		<text name="BLUE1METAL" >			<en>Blue 1 Metal</en>				<de>Blau 1 Metal</de>				</text>
+		<text name="BLUE2METAL" >			<en>Blue 2 Metal</en>				<de>Blau 2 Metal</de>				</text>
+		<text name="BLUE3METAL" >			<en>Blue 3 Metal</en>				<de>Blau 3 Metal</de>				</text>
+		<text name="GREEN1METAL" >			<en>Green 1 Metal</en>				<de>Grün 1 Metal</de>				</text>
+		<text name="GREEN2METAL" >			<en>Green 2 Metal</en>				<de>Grün 2 Metal</de>				</text>
+		<text name="GREEN3METAL" >			<en>Green 3 Metal</en>				<de>Grün 3 Metal</de>				</text>
+		<text name="GREEN4METAL" >			<en>Green 4 Metal</en>				<de>Grün 4 Metal</de>				</text>
+		<text name="PINK/REDMETAL" >		<en>Pink/Red Metal</en>				<de>Pink/Rot Metal</de>				</text>
+		<text name="BERRYMETAL" >			<en>Berry Metal</en>				<de>Beere Metal</de>				</text>
+		<text name="WHITEMETAL" >			<en>White Metal</en>				<de>Weiß Metal</de>					</text>
+		<text name="DARKGRAYMETAL" >		<en>Darkgray Metal</en>				<de>Dunkelgrau Metal</de>			</text>
+		<text name="YELLOW1METAL" >			<en>Yellow 1 Metal</en>				<de>Gelb 1 Metal</de>				</text>
+		<text name="YELLOW2METAL" >			<en>Yellow 2 Metal</en>				<de>Gelb 2 Metal</de>				</text>
+		<text name="YELLOW3METAL" >			<en>Yellow 3 Metal</en>				<de>Gelb 3 Metal</de>				</text>
+	</l10n>
+</modDesc>
