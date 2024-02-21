@@ -82,7 +82,7 @@ Multiplayer is tested and supported.
 
 ## Screenshots
 
-![image](https://www.mediafire.com/view/ao7bqtnnfrmnc6u/proShot_2024-02-21_21-11-01.png/file)
+![Alt text](screenshots/screenShot_01.png)
 
 
 ## Additional information
