@@ -4,7 +4,7 @@
     <name>Conti Hybrid HT3 Special</name>
     <default>
         <physics radius="0.429" width="0.272" mass="0.0759" tireType="street" frictionScale="1.60" maxLongStiffness="8" maxLatStiffness="100" maxLatStiffnessLoad="2"/>
-        <tire filename="HybridHT3/HT3.i3d" nodeLeft="0|0" nodeRight="0|0" maxDeformation="0.02" sideDeformOffset="0.971" isCareWheel="false" tireTrackAtlasIndex="4"/>
+        <tire filename="wheels/continental/HybridHT3/HT3.i3d" nodeLeft="0|0" nodeRight="0|0" maxDeformation="0.02" sideDeformOffset="0.971" isCareWheel="false" tireTrackAtlasIndex="4"/>
         <outerRim filename="$data/shared/wheels/rims/rim001.i3d" node="0|0" widthAndDiam="17 19.5" scale="0.5 1 1"/>
 
     </default>

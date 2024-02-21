@@ -7,7 +7,7 @@
         <functions>
             <function>$l10n_function_lowLoader</function>
         </functions>
-        <image>stores/store_goldhoferStzVp3Back.dds</image>
+        <image>icons/store_goldhoferStzVp3Back.dds</image>
         <price>33000</price>
         <lifetime>600</lifetime>
         <rotation>0</rotation>
@@ -17,7 +17,7 @@
 
     <base>
         <typeDesc>$l10n_typeDesc_lowLoader</typeDesc>
-        <filename>goldhoferStzVp3Back.i3d</filename>
+        <filename>i3d/goldhoferStzVp3Back.i3d</filename>
         <size width="3.5" length="12" />
         <components>
             <component centerOfMass="0 0.45 0" solverIterationCount="10" mass="5800" />
@@ -63,35 +63,35 @@
             </wheelConfiguration>
 			<wheelConfiguration name="HT3" price="0" brand="CONTINENTAL">
                 <wheels>
-                    <wheel filename="HybridHT3/HRFF_HT3.xml" isLeft="true" hasTireTracks="true" configId="HRFF">
+                    <wheel filename="wheels/continental/HybridHT3/HRFF_HT3.xml" isLeft="true" hasTireTracks="true" configId="HRFF">
                         <physics radius="0.448" width="0.435" tipOcclusionAreaGroupId="1"  restLoad="0.9" repr="axisFrontLeftWheel"   driveNode="axisFrontLeftRepr"   transRatio="1" forcePointRatio="0.5" initialCompression="12" suspTravel="0.2" spring="30" damper="60" frictionScale="1.5" mass="0.1" />
                         <steeringAxle scale="-1.3" rotMax="60" rotMin="-60" />
-                        <additionalWheel filename="HybridHT3/HRFF_HT3.xml" isLeft="true" offset="-0.85" configId="HRFF" />
+                        <additionalWheel filename="wheels/continental/HybridHT3/HRFF_HT3.xml" isLeft="true" offset="-0.85" configId="HRFF" />
                     </wheel>
-                    <wheel filename="HybridHT3/HRFF_HT3.xml" isLeft="false" hasTireTracks="true" configId="HRFF">
+                    <wheel filename="wheels/continental/HybridHT3/HRFF_HT3.xml" isLeft="false" hasTireTracks="true" configId="HRFF">
                         <physics radius="0.448" width="0.435" tipOcclusionAreaGroupId="2" restLoad="0.9" repr="axisFrontRightWheel"  driveNode="axisFrontRightRepr"  transRatio="1" forcePointRatio="0.5" initialCompression="12" suspTravel="0.2" spring="30" damper="60" frictionScale="1.5" mass="0.1" />
                         <steeringAxle scale="-1.3" rotMax="60" rotMin="-60" />
-                        <additionalWheel filename="HybridHT3/HRFF_HT3.xml" isLeft="false" offset="-0.85" configId="HRFF"/>
+                        <additionalWheel filename="wheels/continental/HybridHT3/HRFF_HT3.xml" isLeft="false" offset="-0.85" configId="HRFF"/>
                     </wheel>
-                    <wheel filename="HybridHT3/HRFF_HT3.xml" isLeft="true" configId="HRFF">
+                    <wheel filename="wheels/continental/HybridHT3/HRFF_HT3.xml" isLeft="true" configId="HRFF">
                         <physics radius="0.448" width="0.435" tipOcclusionAreaGroupId="1" restLoad="0.9" repr="axisMiddleLeftWheel"  driveNode="axisMiddleLeftRepr"  transRatio="1" forcePointRatio="0.5" initialCompression="12" suspTravel="0.2" spring="30" damper="60" frictionScale="1.5" mass="0.1" />
                         <steeringAxle scale="-1.3" rotMax="60" rotMin="-60" />
-                        <additionalWheel filename="HybridHT3/HRFF_HT3.xml" isLeft="true" offset="-0.85" configId="HRFF"/>
+                        <additionalWheel filename="wheels/continental/HybridHT3/HRFF_HT3.xml" isLeft="true" offset="-0.85" configId="HRFF"/>
                     </wheel>
-                    <wheel filename="HybridHT3/HRFF_HT3.xml" isLeft="false" configId="HRFF">
+                    <wheel filename="wheels/continental/HybridHT3/HRFF_HT3.xml" isLeft="false" configId="HRFF">
                         <physics radius="0.448" width="0.435" tipOcclusionAreaGroupId="2" restLoad="0.9" repr="axisMiddleRightWheel" driveNode="axisMiddleRightRepr" transRatio="1" forcePointRatio="0.5" initialCompression="12" suspTravel="0.2" spring="30" damper="60" frictionScale="1.5" mass="0.1" />
                         <steeringAxle scale="-1.3" rotMax="60" rotMin="-60" />
-                        <additionalWheel filename="HybridHT3/HRFF_HT3.xml" isLeft="false" offset="-0.85" configId="HRFF" />
+                        <additionalWheel filename="wheels/continental/HybridHT3/HRFF_HT3.xml" isLeft="false" offset="-0.85" configId="HRFF" />
                     </wheel>
-                    <wheel filename="HybridHT3/HRFF_HT3.xml" isLeft="true" hasTireTracks="true" hasParticles="true" configId="HRFF">
+                    <wheel filename="wheels/continental/HybridHT3/HRFF_HT3.xml" isLeft="true" hasTireTracks="true" hasParticles="true" configId="HRFF">
                         <physics radius="0.448" width="0.435" tipOcclusionAreaGroupId="1" restLoad="0.9" repr="axisBackLeftWheel"    driveNode="axisBackLeftRepr"    transRatio="1" forcePointRatio="0.5" initialCompression="12" suspTravel="0.2" spring="30" damper="60" frictionScale="1.5" mass="0.1" />
                         <steeringAxle scale="-1.3" rotMax="60" rotMin="-60" />
-                        <additionalWheel filename="HybridHT3/HRFF_HT3.xml" isLeft="true" offset="-0.85" configId="HRFF" />
+                        <additionalWheel filename="wheels/continental/HybridHT3/HRFF_HT3.xml" isLeft="true" offset="-0.85" configId="HRFF" />
                     </wheel>
-                    <wheel filename="HybridHT3/HRFF_HT3.xml" isLeft="false" hasTireTracks="true" hasParticles="true" configId="HRFF">
+                    <wheel filename="wheels/continental/HybridHT3/HRFF_HT3.xml" isLeft="false" hasTireTracks="true" hasParticles="true" configId="HRFF">
                         <physics radius="0.448" width="0.435" tipOcclusionAreaGroupId="2" restLoad="0.9" repr="axisBackRightWheel"   driveNode="axisBackRightRepr"   transRatio="1" forcePointRatio="0.5" initialCompression="12" suspTravel="0.2" spring="30" damper="60" frictionScale="1.5" mass="0.1" />
                         <steeringAxle scale="-1.3" rotMax="60" rotMin="-60" />
-                        <additionalWheel filename="HybridHT3/HRFF_HT3.xml" isLeft="false" offset="-0.85" configId="HRFF"/>
+                        <additionalWheel filename="wheels/continental/HybridHT3/HRFF_HT3.xml" isLeft="false" offset="-0.85" configId="HRFF"/>
                     </wheel>
                 </wheels>
 				<objectChange node="axisFrontLeftRepr" scaleActive="1.1 1.045 1.045" scaleInactive="1 1 1"/>
@@ -257,10 +257,10 @@
 		<sharedLight linkNode="LED30" 							filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
 		<sharedLight linkNode="ausschub1" 						filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
 		<sharedLight linkNode="ausschub2" 						filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
-		<sharedLight linkNode="HRFF_GlubschieLio" 				filename="HRFFLicht/HRFFGlubchies.xml" />
-		<sharedLight linkNode="HRFF_GlubschieLiu" 				filename="HRFFLicht/HRFFGlubchies.xml" />
-		<sharedLight linkNode="HRFF_GlubschieReo" 				filename="HRFFLicht/HRFFGlubchies.xml" />
-		<sharedLight linkNode="HRFF_GlubschieReu" 				filename="HRFFLicht/HRFFGlubchies.xml" />
+		<sharedLight linkNode="HRFF_GlubschieLio" 				filename="lights/HRFFLicht/HRFFGlubchies.xml" />
+		<sharedLight linkNode="HRFF_GlubschieLiu" 				filename="lights/HRFFLicht/HRFFGlubchies.xml" />
+		<sharedLight linkNode="HRFF_GlubschieReo" 				filename="lights/HRFFLicht/HRFFGlubchies.xml" />
+		<sharedLight linkNode="HRFF_GlubschieReu" 				filename="lights/HRFFLicht/HRFFGlubchies.xml" />
         <realLights>
 			<low>
                 <light node="backLightsHigh" lightTypes="0" />

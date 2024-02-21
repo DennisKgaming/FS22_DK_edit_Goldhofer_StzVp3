@@ -6,11 +6,11 @@
   </Asset>
 
   <Files>
-    <File fileId="15" filename="textures/HRFF_Goldhofer_Rampen_normal.dds"/>
-    <File fileId="16" filename="textures/HRFF_Goldhofer_Rampen_vmask.dds"/>
-    <File fileId="9" filename="textures/goldhoferStzVpDecals_diffuse.dds"/>
-    <File fileId="3" filename="textures/goldhoferStzVp_normal.dds"/>
-    <File fileId="4" filename="textures/goldhoferStzVp_vmask.dds"/>
+    <File fileId="15" filename="../textures/HRFF_Goldhofer_Rampen_normal.dds"/>
+    <File fileId="16" filename="../textures/HRFF_Goldhofer_Rampen_vmask.dds"/>
+    <File fileId="9" filename="../textures/goldhoferStzVpDecals_diffuse.dds"/>
+    <File fileId="3" filename="../textures/goldhoferStzVp_normal.dds"/>
+    <File fileId="4" filename="../textures/goldhoferStzVp_vmask.dds"/>
     <File fileId="5" filename="$data/shaders/vehicleShader.xml"/>
     <File fileId="12" filename="$data/shared/default_normal.dds"/>
     <File fileId="13" filename="$data/shared/reflectorsTrailers_vmask.dds"/>

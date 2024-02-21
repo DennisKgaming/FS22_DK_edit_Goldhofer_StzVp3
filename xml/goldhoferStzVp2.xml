@@ -3,7 +3,7 @@
     <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
 
     <storeData>
-        <name>STZ-VP 3</name>
+        <name>STZ-VP 2</name>
 		<specs>
             <combination filterCategory="trucks"/>
             <combination xmlFilename="$data/vehicles/krampe/dolly10L/dolly10L.xml"/>
@@ -12,15 +12,15 @@
             <function>$l10n_function_lowLoader</function>
             <function>$l10n_function_semiTrailer</function>
         </functions>
-        <image>stores/store_goldhoferStzVp3.dds</image>
+        <image>icons/store_goldhoferStzVp2.dds</image>
         <bundleElements>
             <bundleElement>
-                <xmlFilename>goldhoferStzVp2Front.xml</xmlFilename>
+                <xmlFilename>xml/goldhoferStzVp2Front.xml</xmlFilename>
                 <offset>0 -0.01 5.353</offset>
                 <yRotation>0</yRotation>
             </bundleElement>
             <bundleElement>
-                <xmlFilename>goldhoferStzVp3Back.xml</xmlFilename>
+                <xmlFilename>xml/goldhoferStzVp2Back.xml</xmlFilename>
                 <offset>0 0.05 -2</offset>
                 <yRotation>0</yRotation>
             </bundleElement>

@@ -19,9 +19,9 @@
     <File fileId="26" filename="$data/shared/default_normal.dds"/>
     <File fileId="10" filename="$data/vehicles/krampe/sks30_150/sks30_150_normal.dds"/>
     <File fileId="11" filename="$data/vehicles/krampe/sks30_150/sks30_150_vmask.dds"/>
-    <File fileId="24" filename="textures/goldhoferStzVpDecals_diffuse.dds"/>
-    <File fileId="3" filename="textures/goldhoferStzVp_normal.dds"/>
-    <File fileId="4" filename="textures/goldhoferStzVp_vmask.dds"/>
+    <File fileId="24" filename="../textures/goldhoferStzVpDecals_diffuse.dds"/>
+    <File fileId="3" filename="../textures/goldhoferStzVp_normal.dds"/>
+    <File fileId="4" filename="../textures/goldhoferStzVp_vmask.dds"/>
   </Files>
 
 

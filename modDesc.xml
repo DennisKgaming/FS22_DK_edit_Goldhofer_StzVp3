@@ -5,11 +5,11 @@
 	
 	<version>2.0.0.1</version>
 	
-	<iconFilename>icon_goldhoferStzVp.dds</iconFilename>
+	<iconFilename>icons/icon_goldhoferStzVp.dds</iconFilename>
 	
 	<storeItems>
-		<storeItem rootNode="vehicle" xmlFilename="goldhoferStzVp2.xml"/>
-		<storeItem rootNode="vehicle" xmlFilename="goldhoferStzVp3.xml"/>
+		<storeItem rootNode="vehicle" xmlFilename="xml/goldhoferStzVp2.xml"/>
+		<storeItem rootNode="vehicle" xmlFilename="xml/goldhoferStzVp3.xml"/>
 	</storeItems>
 	
 	<title>

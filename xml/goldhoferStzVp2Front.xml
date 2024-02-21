@@ -8,7 +8,7 @@
             <function>$l10n_function_lowLoader</function>
             <function>$l10n_function_semiTrailer</function>
         </functions>
-        <image>stores/store_goldhoferStzVp2Front.dds</image>
+        <image>icons/store_goldhoferStzVp2Front.dds</image>
         <price>12000</price>
         <lifetime>600</lifetime>
         <rotation>0</rotation>
@@ -18,7 +18,7 @@
 
     <base>
         <typeDesc>$l10n_typeDesc_lowLoader</typeDesc>
-        <filename>goldhoferStzVp2Front.i3d</filename>
+        <filename>i3d/goldhoferStzVp2Front.i3d</filename>
         <size width="3" length="4.5" />
         <components>
             <component centerOfMass="0 0.1 -1.5" solverIterationCount="10" mass="950"/>
@@ -37,7 +37,7 @@
 	        </wheelConfiguration>
 			<wheelConfiguration name="HT3" price="0" brand="CONTINENTAL">
                 <wheels>
-					<wheel filename="HybridHT3/HRFF_HT3.xml" configId="HRFF" isLeft="true" hasTireTracks="true" >
+					<wheel filename="wheels/continental/HybridHT3/HRFF_HT3.xml" configId="HRFF" isLeft="true" hasTireTracks="true" >
 						<physics radius="0.01" width="0.01" restLoad="0.9" repr="wheelDummy" forcePointRatio="0.5" initialCompression="12" suspTravel="0.2" spring="30" damper="60" frictionScale="1.5" mass="0.1" />
 					</wheel>
                 </wheels>
