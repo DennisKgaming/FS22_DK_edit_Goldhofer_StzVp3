@@ -3,7 +3,7 @@
 	<author>HR Forst und Fahrzeugbau</author>
 		<contributor>DennisK</contributor>
 	
-	<version>2.0.0.1</version>
+	<version>2.1.0.0</version>
 	
 	<iconFilename>icons/icon_goldhoferStzVp.dds</iconFilename>
 	
@@ -38,52 +38,31 @@ Prices from:
 
 Note: In the shop, the Goldhofer can start to move at the options. This is due to the fact that the Goldhofer consists of 2 individual components and is reloaded each time.
 
+Changelog: 2.1.0.0
+- Added sidemarker lights to front section.
+- Added workinglights to front section.
+- Added real lights to sidemarkers.
+- Fixed blinker front section.
+- Color select adjusted.
+- Changed default color.
+- Added logo to front section.
+- Mod is now in a seperate category.
+- Changed mod to DK edit because of "private" use.
+
+Changelog: 2.0.0.1
+- Fixed a bug in the attacher
+- Colors Revised and Volvo colors added
+- Kingpin replaced and sliding coupling added
+
 Changelog: 2.0.0.0
 - Various modifications to the STZ-VP3.
 - Added STZ-VP2 low loader.
 - Added drive over ramps.
 - Description changed.
 
-Changelog: 2.0.0.1
-- Fixed a bug in the attacher
-- Colors Revised and Volvo colors added
-- Kingpin replaced and sliding coupling added
 ]]>
         </en>
-     <de>
-<![CDATA[
-Goldhofer STZ-VP Pack
-
-Im harten Transportalltag zählt vor allem Zeit. Daher ist der Tiefbettauflieger vom Typ STZ-VP 2 und 3 einfach und zügig von vorne zu beladen. 
-Mit zunehmendem Gewicht und Volumen der Ladegüter ist darüber hinaus entscheidend, dass die Fahrzeuge selbst möglichst leicht sind und gleichzeitig hohe Nutzlasten aufnehmen können. 
-Hier ist der STZ-VP 2 und 3 der wahre Champion, der Ihnen die Schwerstarbeit abnimmt.
-
-Lenkwinkel wurde so angepasst das er optimal dem Zugfahrzeug hinterher fährt.
-Der Hals ist Neigbar und das Fahrwerk Liftbar für deutlich mehr Bodenfreiheit.
-Das Tiefbett wurde deutlich verlängert, so das nun auch die größten Fahrzeuge Platz haben.
-Tiefbett kann verbreitert werden.
-Warntafeln können konfiguriert und ausgeschoben werden.
-Zusätzliche Überfahrrampen.
-
-
-Preise ab:
-- STZ-VP2 : 40.000€
-- STZ-VP3 : 45.000€
-
-Hinweis: Im Shop kann der Goldhofer anfangen sich zu bewegen bei den Optionen. Das liegt daran das der Goldhofer aus 2 einzelnen Bauteilen besteht, und jedesmal neu geladen wird.
-
-Changelog: 2.0.0.0
-- Diverse Änderungen am STZ-VP3.
-- STZ-VP2 Tieflader hinzugefügt.
-- Überfahrrampen hinzugefügt.
-- Beschreibung geändert.
-
-Changelog: 2.0.0.1
-- Fehler im Attacher behoben
-- Farben Überarbeitet und Volvo Farben hinzugefügt
-- Königszapfen ausgetauscht, und verschiebbare Kupplung hinzugefügt
-]]>
-</de>
+     
 	</description>
 	
 	<multiplayer supported="true"/>
