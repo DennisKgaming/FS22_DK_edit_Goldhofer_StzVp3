@@ -143,28 +143,59 @@
     </connectionHoses>
 	
     <lights>
-        <sharedLight linkNode="rearLightOvalWhite01_07" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLight23White.xml" />
-        <sharedLight linkNode="rearLightOvalWhite01_08" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLight23White.xml" />
-        <sharedLight linkNode="rearLightOvalOrange01_01" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
-        <sharedLight linkNode="rearLightOvalOrange01_02" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
-		<sharedLight linkNode="rearLightOvalWhite01_01" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLight23White.xml" />
-        <sharedLight linkNode="rearLightOvalWhite01_02" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLight23White.xml" />
-        <sharedLight linkNode="rearLightOvalWhite01_03" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLight23White.xml" />
-        <sharedLight linkNode="rearLightOvalWhite01_04" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLight23White.xml" />
-        <sharedLight linkNode="rearLightOvalWhite01_05" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLight23White.xml" />
-        <sharedLight linkNode="rearLightOvalWhite01_06" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLight23White.xml" />
-		<sharedLight linkNode="0>0|4|2|4" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
-        <sharedLight linkNode="0>0|4|2|5" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
-        <sharedLight linkNode="0>0|4|2|6" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
-        <sharedLight linkNode="0>0|4|3|4" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
-        <sharedLight linkNode="0>0|4|3|5" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
-        <sharedLight linkNode="0>0|4|3|6" lightTypes="0" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
-        <realLights>
+		
+	
+        <sharedLight linkNode="rearLightOvalWhite01_07" 	lightTypes="0" 	filename="$data/shared/assets/lights/lizard/rearLight23White.xml" />
+        <sharedLight linkNode="rearLightOvalWhite01_08" 	lightTypes="0" 	filename="$data/shared/assets/lights/lizard/rearLight23White.xml" />
+        <sharedLight linkNode="rearLightOvalOrange01_01" 					filename="$data/shared/assets/lights/lizard/rearLight23Orange_left.xml" />
+        <sharedLight linkNode="rearLightOvalOrange01_02" 					filename="$data/shared/assets/lights/lizard/rearLight23Orange_right.xml" />
+        <sharedLight linkNode="sideMarker_09Orange_1" 		lightTypes="0" 	filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+        <sharedLight linkNode="sideMarker_09Orange_2" 		lightTypes="0" 	filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+		<sharedLight linkNode="rearLightOvalWhite01_01" 	lightTypes="0" 	filename="$data/shared/assets/lights/lizard/rearLight23White.xml" />
+        <sharedLight linkNode="rearLightOvalWhite01_02" 	lightTypes="0" 	filename="$data/shared/assets/lights/lizard/rearLight23White.xml" />
+        <sharedLight linkNode="rearLightOvalWhite01_03" 	lightTypes="0" 	filename="$data/shared/assets/lights/lizard/rearLight23White.xml" />
+        <sharedLight linkNode="rearLightOvalWhite01_04" 	lightTypes="0" 	filename="$data/shared/assets/lights/lizard/rearLight23White.xml" />
+        <sharedLight linkNode="rearLightOvalWhite01_05" 	lightTypes="0" 	filename="$data/shared/assets/lights/lizard/rearLight23White.xml" />
+        <sharedLight linkNode="rearLightOvalWhite01_06" 	lightTypes="0" 	filename="$data/shared/assets/lights/lizard/rearLight23White.xml" />
+		<sharedLight linkNode="0>0|4|2|4" 					lightTypes="0" 	filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+        <sharedLight linkNode="0>0|4|2|5" 					lightTypes="0" 	filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+        <sharedLight linkNode="0>0|4|2|6" 					lightTypes="0" 	filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+        <sharedLight linkNode="0>0|4|3|4" 					lightTypes="0" 	filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+        <sharedLight linkNode="0>0|4|3|5" 					lightTypes="0" 	filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+        <sharedLight linkNode="0>0|4|3|6" 					lightTypes="0" 	filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+		
+        <sharedLight linkNode="sideMarker_01" 				lightTypes="0" 	filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+        <sharedLight linkNode="sideMarker_02" 				lightTypes="0" 	filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+        <sharedLight linkNode="sideMarker_03" 				lightTypes="0" 	filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+        <sharedLight linkNode="sideMarker_04" 				lightTypes="0" 	filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+        <sharedLight linkNode="sideMarker_05" 				lightTypes="0" 	filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+        <sharedLight linkNode="sideMarker_06" 				lightTypes="0" 	filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+        <sharedLight linkNode="sideMarker_07" 				lightTypes="0" 	filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+        <sharedLight linkNode="sideMarker_08" 				lightTypes="0" 	filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+        <sharedLight linkNode="sideMarker_09" 				lightTypes="0" 	filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+        <sharedLight linkNode="sideMarker_10" 				lightTypes="0" 	filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+        <sharedLight linkNode="sideMarker_11" 				lightTypes="0" 	filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+        <sharedLight linkNode="sideMarker_12" 				lightTypes="0" 	filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+		
+        <sharedLight linkNode="workLight_01" 				filename="lights/lizard/workingLight15.xml" />
+        <sharedLight linkNode="workLight_02" 				filename="lights/lizard/workingLight15.xml" />
+        
+		<realLights>
             <high>
-                <turnLightLeft node="turnLightLeftFront" />
+				<light 			node="markerPlateLorange_real" 			lightTypes="0"/>
+				<light 			node="markerPlateLwhite_real" 			lightTypes="0"/>
+				<light 			node="markerPlateRorange_real" 			lightTypes="0"/>
+				<light 			node="markerPlateRwhite_real" 			lightTypes="0"/>
+				
+				<light 			node="sidemarkerOrange_real" 			lightTypes="0"/>
+				<light 			node="sidemarkerWhite_real" 			lightTypes="0"/>
+				<light 			node="workingLight_white_real" 			lightTypes="3"/>
+				
+                <turnLightLeft 	node="turnLightLeftFront" />
                 <turnLightRight node="turnLightRightFront" />
             </high>
         </realLights>
+		
     </lights>
 	
 	<foldable>
@@ -412,37 +443,69 @@
     <washable dirtDuration="90" washDuration="1" workMultiplier="3" fieldMultiplier="2"/>
 
     <i3dMappings>
-        <i3dMapping id="goldhoferFront_vis" node="0>0" />
-		<i3dMapping id="dynamicMountTrigger" node="0>3" />
-        <i3dMapping id="attacherJoint" node="0>0|0|0" />
-        <i3dMapping id="attacherJointBack" node="0>0|1|1" />
-        <i3dMapping id="sideMarker_09White_1" node="0>0|2|0|0" />
-        <i3dMapping id="sideMarker_09White_2" node="0>0|2|0|1" />
-        <i3dMapping id="sideMarker_09Orange_1" node="0>0|2|0|2" />
-        <i3dMapping id="sideMarker_09Orange_2" node="0>0|2|0|3" />
-        <i3dMapping id="rearLightOvalWhite01_01" node="0>0|4|3|0" />
-        <i3dMapping id="rearLightOvalWhite01_02" node="0>0|4|3|1" />
-        <i3dMapping id="rearLightOvalWhite01_03" node="0>0|4|3|2" />
-        <i3dMapping id="rearLightOvalWhite01_04" node="0>0|4|2|0" />
-        <i3dMapping id="rearLightOvalWhite01_05" node="0>0|4|2|1" />
-        <i3dMapping id="rearLightOvalWhite01_06" node="0>0|4|2|2" />
-        <i3dMapping id="rearLightOvalWhite01_07" node="0>0|2|0|10" />
-        <i3dMapping id="rearLightOvalWhite01_08" node="0>0|2|0|11" />
-        <i3dMapping id="rearLightOvalOrange01_01" node="0>0|2|0|12" />
-        <i3dMapping id="rearLightOvalOrange01_02" node="0>0|2|0|13" />
-        <i3dMapping id="turnLightLeftFront" node="0>0|2|1|0|0" />
-        <i3dMapping id="turnLightRightFront" node="0>0|2|1|1|0" />
-        <i3dMapping id="wheelDummy" node="0>0|3" />
-        <i3dMapping id="supportBoxes" node="0>0|1|3" />
-		<i3dMapping id="tensionBelts" node="0>2"/>
-        <i3dMapping id="beltStart1" node="0>2|0"/>
-        <i3dMapping id="beltEnd1" node="0>2|0|0"/>
-        <i3dMapping id="beltStart2" node="0>2|1"/>
-        <i3dMapping id="beltEnd2" node="0>2|1|0"/>
-		<i3dMapping id="beltActivationTrigger" node="0>2|2"/>	
-		<i3dMapping id="tensionBelt01Intersection01" node="0>2|0|1"/>
-        <i3dMapping id="tensionBelt01Intersection02" node="0>2|0|2"/>
-		<i3dMapping id="tensionBelt02Intersection01" node="0>2|1|1"/>
-        <i3dMapping id="tensionBelt02Intersection02" node="0>2|1|2"/>
+        <i3dMapping id="goldhoferFront_vis" 			node="0>0" />
+		
+        <i3dMapping id="attacherJoint" 					node="0>0|0|0" />
+		
+        <i3dMapping id="attacherJointBack" 				node="0>0|1|1" />
+        <i3dMapping id="supportBoxes" 					node="0>0|1|3" />
+		
+        <i3dMapping id="sideMarker_09White_1" 			node="0>0|2|0|0" />
+        <i3dMapping id="sideMarker_09White_2" 			node="0>0|2|0|1" />
+        <i3dMapping id="sideMarker_09Orange_1" 			node="0>0|2|0|2" />
+        <i3dMapping id="sideMarker_09Orange_2" 			node="0>0|2|0|3" />
+        <i3dMapping id="rearLightOvalWhite01_07" 		node="0>0|2|0|4" />
+        <i3dMapping id="rearLightOvalWhite01_08" 		node="0>0|2|0|5" />
+        <i3dMapping id="rearLightOvalOrange01_01" 		node="0>0|2|0|6" />
+        <i3dMapping id="rearLightOvalOrange01_02" 		node="0>0|2|0|7" />
+		
+        <i3dMapping id="sideMarker_01" 					node="0>0|2|0|8" />
+        <i3dMapping id="sideMarker_02" 					node="0>0|2|0|9" />
+        <i3dMapping id="sideMarker_03" 					node="0>0|2|0|10" />
+        <i3dMapping id="sideMarker_04" 					node="0>0|2|0|11" />
+        <i3dMapping id="sideMarker_05" 					node="0>0|2|0|12" />
+        <i3dMapping id="sideMarker_06" 					node="0>0|2|0|13" />
+        <i3dMapping id="sideMarker_07" 					node="0>0|2|0|14" />
+        <i3dMapping id="sideMarker_08" 					node="0>0|2|0|15" />
+        <i3dMapping id="sideMarker_09" 					node="0>0|2|0|16" />
+        <i3dMapping id="sideMarker_10" 					node="0>0|2|0|17" />
+        <i3dMapping id="sideMarker_11" 					node="0>0|2|0|18" />
+        <i3dMapping id="sideMarker_12" 					node="0>0|2|0|19" />
+        <i3dMapping id="workLight_01" 					node="0>0|2|0|20" />
+        <i3dMapping id="workLight_02" 					node="0>0|2|0|21" />
+		
+        <i3dMapping id="turnLightLeftFront" 			node="0>0|2|1|0|0" />
+        <i3dMapping id="turnLightRightFront" 			node="0>0|2|1|1|0" />
+		
+        <i3dMapping id="sidemarkerOrange_real" 			node="0>0|2|2|0" />
+        <i3dMapping id="sidemarkerWhite_real" 			node="0>0|2|2|1" />
+        <i3dMapping id="workingLight_white_real" 		node="0>0|2|2|2" />
+		
+        <i3dMapping id="rearLightOvalWhite01_01" 		node="0>0|4|3|0" />
+        <i3dMapping id="rearLightOvalWhite01_02" 		node="0>0|4|3|1" />
+        <i3dMapping id="rearLightOvalWhite01_03" 		node="0>0|4|3|2" />
+        <i3dMapping id="rearLightOvalWhite01_04" 		node="0>0|4|2|0" />
+        <i3dMapping id="rearLightOvalWhite01_05" 		node="0>0|4|2|1" />
+        <i3dMapping id="rearLightOvalWhite01_06" 		node="0>0|4|2|2" />
+		
+        <i3dMapping id="markerPlateLorange_real" 		node="0>0|4|2|7|0" />
+        <i3dMapping id="markerPlateLwhite_real" 		node="0>0|4|2|7|1" />
+        <i3dMapping id="markerPlateRorange_real" 		node="0>0|4|3|7|0" />
+        <i3dMapping id="markerPlateRwhite_real" 		node="0>0|4|3|7|1" />
+		
+        <i3dMapping id="wheelDummy" 					node="0>0|3" />
+		
+		<i3dMapping id="tensionBelts" 					node="0>2"/>
+        <i3dMapping id="beltStart1" 					node="0>2|0"/>
+        <i3dMapping id="beltEnd1" 						node="0>2|0|0"/>
+        <i3dMapping id="beltStart2" 					node="0>2|1"/>
+        <i3dMapping id="beltEnd2" 						node="0>2|1|0"/>
+		<i3dMapping id="beltActivationTrigger" 			node="0>2|2"/>	
+		<i3dMapping id="tensionBelt01Intersection01"	node="0>2|0|1"/>
+        <i3dMapping id="tensionBelt01Intersection02" 	node="0>2|0|2"/>
+		<i3dMapping id="tensionBelt02Intersection01" 	node="0>2|1|1"/>
+        <i3dMapping id="tensionBelt02Intersection02" 	node="0>2|1|2"/>
+		
+		<i3dMapping id="dynamicMountTrigger" 			node="0>3" />
     </i3dMappings>
 </vehicle>
