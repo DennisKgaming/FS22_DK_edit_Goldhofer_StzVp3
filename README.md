@@ -82,7 +82,7 @@ Multiplayer is tested and supported.
 
 ## Screenshots
 
-![Alt text](proShot_2024-02-21_21-31-23.png) ![Alt text](proShot_2024-02-21_21-11-01-1.png) ![Alt text](proShot_2024-02-21_21-17-52.png) ![Alt text](proShot_2024-02-21_21-22-34.png) ![Alt text](proShot_2024-02-21_21-28-06.png) ![Alt text](proShot_2024-02-21_21-29-15.png) ![Alt text](proShot_2024-02-21_21-30-18.png)
+![image](https://www.mediafire.com/view/ao7bqtnnfrmnc6u/proShot_2024-02-21_21-11-01.png/file)
 
 
 ## Additional information
