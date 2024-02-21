@@ -28,13 +28,6 @@
 	
 	<wheels>
         <wheelConfigurations>
-            <wheelConfiguration name="Implement" price="0" brand="LIZARD" >
-				<wheels>
-					<wheel filename="$data/shared/wheels/tires/lizard/implement/295_70R18.xml" isLeft="true" hasTireTracks="true" >
-						<physics radius="0.01" width="0.01" restLoad="0.9" repr="wheelDummy" forcePointRatio="0.5" initialCompression="12" suspTravel="0.2" spring="30" damper="60" frictionScale="1.5" mass="0.1" />
-					</wheel>
-				</wheels>
-	        </wheelConfiguration>
 			<wheelConfiguration name="HT3" price="0" brand="CONTINENTAL">
                 <wheels>
 					<wheel filename="wheels/continental/HybridHT3/HRFF_HT3.xml" configId="HRFF" isLeft="true" hasTireTracks="true" >
@@ -43,6 +36,13 @@
                 </wheels>
 				<objectChange node="wheelDummy" scaleActive="1.1 1.045 1.045" scaleInactive="1 1 1"/>
 			</wheelConfiguration>
+            <wheelConfiguration name="Implement" price="0" brand="LIZARD" >
+				<wheels>
+					<wheel filename="$data/shared/wheels/tires/lizard/implement/295_70R18.xml" isLeft="true" hasTireTracks="true" >
+						<physics radius="0.01" width="0.01" restLoad="0.9" repr="wheelDummy" forcePointRatio="0.5" initialCompression="12" suspTravel="0.2" spring="30" damper="60" frictionScale="1.5" mass="0.1" />
+					</wheel>
+				</wheels>
+	        </wheelConfiguration>
         </wheelConfigurations>
 		<hubs>
             <color0 useBaseColor="true" />
@@ -260,6 +260,14 @@
 		</design3Configuration>
 	</design3Configurations>
 
+	<design4Configurations price="500" title="Logo's">
+		<design4Configuration name="No">
+		</design4Configuration>
+		<design4Configuration name="DennisK Farming" isDefault="true">
+			<objectChange node="DennisK"	visibilityActive="true"	visibilityInactive="false"/>
+		</design4Configuration>
+	</design4Configurations>
+
     <wearable wearDuration="480" workMultiplier="5" fieldMultiplier="2"/>
     <washable dirtDuration="90" washDuration="1" workMultiplier="3" fieldMultiplier="2"/>
 
@@ -313,6 +321,8 @@
         <i3dMapping id="markerPlateLwhite_real" 		node="0>0|4|2|7|1" />
         <i3dMapping id="markerPlateRorange_real" 		node="0>0|4|3|7|0" />
         <i3dMapping id="markerPlateRwhite_real" 		node="0>0|4|3|7|1" />
+		
+		<i3dMapping id="DennisK" 						node="0>0|4|5|0" />
 		
         <i3dMapping id="wheelDummy" 					node="0>0|3" />
 		

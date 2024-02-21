@@ -27,30 +27,6 @@
 
     <wheels>
         <wheelConfigurations>
-            <wheelConfiguration name="Implement" price="0" brand="LIZARD" >
-                <wheels>
-                    <wheel filename="$data/shared/wheels/tires/lizard/implement/295_70R18.xml" isLeft="true" hasTireTracks="true" >
-                        <physics tipOcclusionAreaGroupId="1" restLoad="0.9" repr="axisFrontLeftWheel"   driveNode="axisFrontLeftRepr"   transRatio="1" forcePointRatio="0.5" initialCompression="12" suspTravel="0.2" spring="30" damper="60" frictionScale="1.5" mass="0.1" />
-                        <steeringAxle scale="-1.3" rotMax="60" rotMin="-60" />
-                        <additionalWheel filename="$data/shared/wheels/tires/lizard/implement/295_70R18.xml" isLeft="false" offset="0.24" />
-                    </wheel>
-                    <wheel filename="$data/shared/wheels/tires/lizard/implement/295_70R18.xml" isLeft="false" hasTireTracks="true" >
-                        <physics tipOcclusionAreaGroupId="2" restLoad="0.9" repr="axisFrontRightWheel"  driveNode="axisFrontRightRepr"  transRatio="1" forcePointRatio="0.5" initialCompression="12" suspTravel="0.2" spring="30" damper="60" frictionScale="1.5" mass="0.1" />
-                        <steeringAxle scale="-1.3" rotMax="60" rotMin="-60" />
-                        <additionalWheel filename="$data/shared/wheels/tires/lizard/implement/295_70R18.xml" isLeft="true" offset="0.24" />
-                    </wheel>
-                    <wheel filename="$data/shared/wheels/tires/lizard/implement/295_70R18.xml" isLeft="true" >
-                        <physics tipOcclusionAreaGroupId="1" restLoad="0.9" repr="axisMiddleLeftWheel"  driveNode="axisMiddleLeftRepr"  transRatio="1" forcePointRatio="0.5" initialCompression="12" suspTravel="0.2" spring="30" damper="60" frictionScale="1.5" mass="0.1" />
-                        <steeringAxle scale="-1.3" rotMax="60" rotMin="-60" />
-                        <additionalWheel filename="$data/shared/wheels/tires/lizard/implement/295_70R18.xml" isLeft="false" offset="0.24" />
-                    </wheel>
-                    <wheel filename="$data/shared/wheels/tires/lizard/implement/295_70R18.xml" isLeft="false" >
-                        <physics tipOcclusionAreaGroupId="2" restLoad="0.9" repr="axisMiddleRightWheel" driveNode="axisMiddleRightRepr" transRatio="1" forcePointRatio="0.5" initialCompression="12" suspTravel="0.2" spring="30" damper="60" frictionScale="1.5" mass="0.1" />
-                        <steeringAxle scale="-1.3" rotMax="60" rotMin="-60" />
-                        <additionalWheel filename="$data/shared/wheels/tires/lizard/implement/295_70R18.xml" isLeft="true" offset="0.24" />
-                    </wheel>
-                </wheels>
-            </wheelConfiguration>
 			<wheelConfiguration name="HT3" price="0" brand="CONTINENTAL">
                 <wheels>
                     <wheel filename="wheels/continental/HybridHT3/HRFF_HT3.xml" isLeft="true" hasTireTracks="true" configId="HRFF">
@@ -78,6 +54,30 @@
 				<objectChange node="axisFrontRightRepr" scaleActive="1.1 1.045 1.045" scaleInactive="1 1 1"/>
 				<objectChange node="axisMiddleLeftRepr" scaleActive="1.1 1.045 1.045" scaleInactive="1 1 1"/>
 				<objectChange node="axisMiddleRightRepr" scaleActive="1.1 1.045 1.045" scaleInactive="1 1 1"/>
+            </wheelConfiguration>
+            <wheelConfiguration name="Implement" price="0" brand="LIZARD" >
+                <wheels>
+                    <wheel filename="$data/shared/wheels/tires/lizard/implement/295_70R18.xml" isLeft="true" hasTireTracks="true" >
+                        <physics tipOcclusionAreaGroupId="1" restLoad="0.9" repr="axisFrontLeftWheel"   driveNode="axisFrontLeftRepr"   transRatio="1" forcePointRatio="0.5" initialCompression="12" suspTravel="0.2" spring="30" damper="60" frictionScale="1.5" mass="0.1" />
+                        <steeringAxle scale="-1.3" rotMax="60" rotMin="-60" />
+                        <additionalWheel filename="$data/shared/wheels/tires/lizard/implement/295_70R18.xml" isLeft="false" offset="0.24" />
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/tires/lizard/implement/295_70R18.xml" isLeft="false" hasTireTracks="true" >
+                        <physics tipOcclusionAreaGroupId="2" restLoad="0.9" repr="axisFrontRightWheel"  driveNode="axisFrontRightRepr"  transRatio="1" forcePointRatio="0.5" initialCompression="12" suspTravel="0.2" spring="30" damper="60" frictionScale="1.5" mass="0.1" />
+                        <steeringAxle scale="-1.3" rotMax="60" rotMin="-60" />
+                        <additionalWheel filename="$data/shared/wheels/tires/lizard/implement/295_70R18.xml" isLeft="true" offset="0.24" />
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/tires/lizard/implement/295_70R18.xml" isLeft="true" >
+                        <physics tipOcclusionAreaGroupId="1" restLoad="0.9" repr="axisMiddleLeftWheel"  driveNode="axisMiddleLeftRepr"  transRatio="1" forcePointRatio="0.5" initialCompression="12" suspTravel="0.2" spring="30" damper="60" frictionScale="1.5" mass="0.1" />
+                        <steeringAxle scale="-1.3" rotMax="60" rotMin="-60" />
+                        <additionalWheel filename="$data/shared/wheels/tires/lizard/implement/295_70R18.xml" isLeft="false" offset="0.24" />
+                    </wheel>
+                    <wheel filename="$data/shared/wheels/tires/lizard/implement/295_70R18.xml" isLeft="false" >
+                        <physics tipOcclusionAreaGroupId="2" restLoad="0.9" repr="axisMiddleRightWheel" driveNode="axisMiddleRightRepr" transRatio="1" forcePointRatio="0.5" initialCompression="12" suspTravel="0.2" spring="30" damper="60" frictionScale="1.5" mass="0.1" />
+                        <steeringAxle scale="-1.3" rotMax="60" rotMin="-60" />
+                        <additionalWheel filename="$data/shared/wheels/tires/lizard/implement/295_70R18.xml" isLeft="true" offset="0.24" />
+                    </wheel>
+                </wheels>
             </wheelConfiguration>
         </wheelConfigurations>
         <hubs>
