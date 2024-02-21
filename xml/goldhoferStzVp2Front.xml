@@ -3,7 +3,7 @@
     <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
 
     <storeData>
-        <name>STZ-VP 2 Front</name>
+        <name>STZ-VP 2 Front DK edit</name>
         <functions>
             <function>$l10n_function_lowLoader</function>
             <function>$l10n_function_semiTrailer</function>
@@ -13,7 +13,7 @@
         <lifetime>600</lifetime>
         <rotation>0</rotation>
         <brand>GOLDHOFER</brand>
-        <category>lowloaders</category>
+        <category>DennisKtools</category>
     </storeData>
 
     <base>

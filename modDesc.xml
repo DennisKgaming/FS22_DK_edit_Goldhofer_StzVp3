@@ -13,7 +13,7 @@
 	</storeItems>
 	
 	<title>
-        <en>Goldhofer STZ-VP Pack</en>
+        <en>Goldhofer STZ-VP Pack DK edit</en>
 	</title>
 	
 	<description>
@@ -149,4 +149,11 @@ Changelog: 2.0.0.1
 		<text name="YELLOW2METAL" >			<en>Yellow 2 Metal</en>				<de>Gelb 2 Metal</de>				</text>
 		<text name="YELLOW3METAL" >			<en>Yellow 3 Metal</en>				<de>Gelb 3 Metal</de>				</text>
 	</l10n>
+	
+	<extraSourceFiles>
+        <sourceFile filename="scripts/categorizer.lua"/>
+    </extraSourceFiles>
+	
+	<newcategory name="DennisKtools" title="DennisK" type="TOOL" img="Categories/CategoryTools.png" />
+	
 </modDesc>

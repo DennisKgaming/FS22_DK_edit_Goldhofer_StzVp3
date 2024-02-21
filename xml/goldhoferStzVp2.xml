@@ -3,7 +3,7 @@
     <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
 
     <storeData>
-        <name>STZ-VP 2</name>
+        <name>STZ-VP 2 DK edit</name>
 		<specs>
             <combination filterCategory="trucks"/>
             <combination xmlFilename="$data/vehicles/krampe/dolly10L/dolly10L.xml"/>
@@ -30,7 +30,7 @@
         </attacherInfo>
         <brand>GOLDHOFER</brand>
         <rotation>0</rotation>
-        <category>lowloaders</category>
+        <category>DennisKtools</category>
         <vertexBufferMemoryUsage>0</vertexBufferMemoryUsage>
         <indexBufferMemoryUsage>0</indexBufferMemoryUsage>
         <textureMemoryUsage>0</textureMemoryUsage>
