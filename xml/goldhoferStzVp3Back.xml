@@ -202,25 +202,32 @@
 		<sharedLight linkNode="HRFF_GlubschieReu" 				filename="lights/HRFFLicht/HRFFGlubchies.xml" />
         <realLights>
 			<low>
-                <light node="backLightsHigh" lightTypes="0" />
-                <!-- <light node="0>0|2|2|1|1" lightTypes="0" /> -->
-                <!-- <light node="0>0|6|2" lightTypes="0" /> -->
-                <reverseLight node="workLightBackHigh" />
-                <turnLightLeft node="turnLightLeftBack" />
-                <turnLightRight node="turnLightRightBack" />
-                <brakeLight node="backLightsHigh" />
-                <reverseLight node="reverseLight" />
+                <light 			node="backLightsHigh" 			lightTypes="0" />
+                <reverseLight 	node="workLightBackHigh" />
+                <turnLightLeft 	node="turnLightLeftBack" />
+                <turnLightRight	node="turnLightRightBack" />
+                <brakeLight 	node="backLightsHigh" />
+                <reverseLight 	node="reverseLight" />
             </low>
             <high>
-                <light node="backLightsHigh" lightTypes="0" />
-                <!-- <light node="0>0|2|2|1|1" lightTypes="0" /> -->
-                <!-- <light node="0>0|6|2" lightTypes="0" /> -->
-                <reverseLight node="workLightBackHigh" />
-                <turnLightLeft node="turnLightLeftBack" />
-                <turnLightRight node="turnLightRightBack" />
-                <brakeLight node="backLightsHigh" />
-                <reverseLight node="reverseLight" />
-				<light node="0>0|2|2|1|2" lightTypes="0" />
+                <light 			node="backLightsHigh" 			lightTypes="0" />
+				
+                <light 			node="sidemarkerOrange_real" 	lightTypes="0" />
+                <light 			node="markerplateFLorange_real" lightTypes="0" />
+                <light 			node="markerplateFLred_real" 	lightTypes="0" />
+                <light 			node="markerplateFRorange_real" lightTypes="0" />
+                <light 			node="markerplateFRred_real" 	lightTypes="0" />
+                <light 			node="markerplateRLorange_real" lightTypes="0" />
+                <light 			node="markerplateRLred_real" 	lightTypes="0" />
+                <light 			node="markerplateRRorange_real" lightTypes="0" />
+                <light 			node="markerplateRRred_real" 	lightTypes="0" />
+				
+                <reverseLight 	node="workLightBackHigh" />
+                <turnLightLeft 	node="turnLightLeftBack" />
+                <turnLightRight	node="turnLightRightBack" />
+                <brakeLight 	node="backLightsHigh" />
+                <reverseLight 	node="reverseLight" />
+				<light 			node="0>0|2|2|1|2" 				lightTypes="0" />
             </high>
         </realLights>
         <beaconLights>
@@ -534,8 +541,11 @@
 
     <i3dMappings>
         <i3dMapping id="frontPart" 						node="0>0" />
+		
         <i3dMapping id="attacherJoint" 					node="0>0|0" />
+		
         <i3dMapping id="backPartPhysics" 				node="0>0|1" />
+		
         <i3dMapping id="backPart" 						node="0>0|2" />
         <i3dMapping id="wheels" 						node="0>0|2|0" />
         <i3dMapping id="axisFrontLeftWheel" 			node="0>0|2|0|0" />
@@ -607,26 +617,6 @@
         <i3dMapping id="rearMultipointLight_02_left" 	node="0>0|2|2|0|6" />
         <i3dMapping id="rearMultipointLight_02_right" 	node="0>0|2|2|0|7" />
         <i3dMapping id="workingLightCircle_02_1" 		node="0>0|2|2|0|8" />
-        <i3dMapping id="sideMarker_09Orange_1" 			node="0>0|2|12|1|1|0" />
-        <i3dMapping id="sideMarker_09Orange_2" 			node="0>0|2|12|1|1|1" />
-        <i3dMapping id="sideMarker_09Orange_3" 			node="0>0|2|12|1|1|2" />
-        <i3dMapping id="sideMarker_09Orange_4" 			node="0>0|2|12|1|0|0" />
-        <i3dMapping id="sideMarker_09Orange_5" 			node="0>0|2|12|1|0|1" />
-        <i3dMapping id="sideMarker_09Orange_6" 			node="0>0|2|12|1|0|2" />
-        <i3dMapping id="sideMarker_09Orange_7" 			node="0>0|2|12|0|1|0" />
-        <i3dMapping id="sideMarker_09Orange_8" 			node="0>0|2|12|0|1|1" />
-        <i3dMapping id="sideMarker_09Orange_9" 			node="0>0|2|12|0|1|2" />
-        <i3dMapping id="sideMarker_09Orange_10" 		node="0>0|2|12|0|0|0" />
-        <i3dMapping id="sideMarker_09Orange_11" 		node="0>0|2|12|0|0|1" />
-        <i3dMapping id="sideMarker_09Orange_12" 		node="0>0|2|12|0|0|2" />
-        <i3dMapping id="backLightsHigh" 				node="0>0|2|2|1|0" />
-        <i3dMapping id="workLightBackHigh" 				node="0>0|2|2|2|0" />
-        <i3dMapping id="turnLightLeftBack" 				node="0>0|2|2|3|0|0" />
-        <i3dMapping id="turnLightRightBack" 			node="0>0|2|2|3|1|0" />
-        <i3dMapping id="reverseLight" 					node="0>0|2|2|4|0" />
-        <i3dMapping id="dynamicMountTrigger" 			node="0>0|2|4|0" />
-        <i3dMapping id="ramps" 							node="0>0|3" />
-        <i3dMapping id="dynamicMountTriggerRef" 		node="0>0|4" />
 		<i3dMapping id="LED1" 							node="0>0|2|2|0|9" />
 		<i3dMapping id="LED2"  							node="0>0|2|2|0|10" />
 		<i3dMapping id="LED3"  							node="0>0|2|2|0|11" />
@@ -657,11 +647,44 @@
 		<i3dMapping id="LED28"  						node="0>0|2|2|0|36" />
 		<i3dMapping id="LED29"  						node="0>0|2|2|0|37" />
 		<i3dMapping id="LED30"  						node="0>0|2|2|0|38" />
-		<i3dMapping id="ausschub1"  					node="0>0|6|0" />
-		<i3dMapping id="ausschub2" 						node="0>0|6|1" />
 		<i3dMapping id="HRFF_GlubschieLio" 				node="0>0|2|2|0|39" />
 		<i3dMapping id="HRFF_GlubschieLiu" 				node="0>0|2|2|0|40" />
 		<i3dMapping id="HRFF_GlubschieReo" 				node="0>0|2|2|0|41" />
 		<i3dMapping id="HRFF_GlubschieReu" 				node="0>0|2|2|0|42" />
+        <i3dMapping id="backLightsHigh" 				node="0>0|2|2|1|0" />
+        <i3dMapping id="workLightBackHigh" 				node="0>0|2|2|2|0" />
+        <i3dMapping id="turnLightLeftBack" 				node="0>0|2|2|3|0|0" />
+        <i3dMapping id="turnLightRightBack" 			node="0>0|2|2|3|1|0" />
+        <i3dMapping id="reverseLight" 					node="0>0|2|2|4|0" />
+        <i3dMapping id="dynamicMountTrigger" 			node="0>0|2|4|0" />
+        <i3dMapping id="sideMarker_09Orange_1" 			node="0>0|2|12|1|1|0" />
+        <i3dMapping id="sideMarker_09Orange_2" 			node="0>0|2|12|1|1|1" />
+        <i3dMapping id="sideMarker_09Orange_3" 			node="0>0|2|12|1|1|2" />
+        <i3dMapping id="sideMarker_09Orange_4" 			node="0>0|2|12|1|0|0" />
+        <i3dMapping id="sideMarker_09Orange_5" 			node="0>0|2|12|1|0|1" />
+        <i3dMapping id="sideMarker_09Orange_6" 			node="0>0|2|12|1|0|2" />
+        <i3dMapping id="sideMarker_09Orange_7" 			node="0>0|2|12|0|1|0" />
+        <i3dMapping id="sideMarker_09Orange_8" 			node="0>0|2|12|0|1|1" />
+        <i3dMapping id="sideMarker_09Orange_9" 			node="0>0|2|12|0|1|2" />
+        <i3dMapping id="sideMarker_09Orange_10" 		node="0>0|2|12|0|0|0" />
+        <i3dMapping id="sideMarker_09Orange_11" 		node="0>0|2|12|0|0|1" />
+        <i3dMapping id="sideMarker_09Orange_12" 		node="0>0|2|12|0|0|2" />
+		
+        <i3dMapping id="ramps" 							node="0>0|3" />
+		
+        <i3dMapping id="dynamicMountTriggerRef" 		node="0>0|4" />
+		
+		<i3dMapping id="ausschub1"  					node="0>0|6|0" />
+		<i3dMapping id="ausschub2" 						node="0>0|6|1" />
+		
+		<i3dMapping id="sidemarkerOrange_real" 			node="0>0|2|2|5|0" />
+		<i3dMapping id="markerplateFLorange_real" 		node="0>0|2|12|0|0|7|0" />
+		<i3dMapping id="markerplateFLred_real" 			node="0>0|2|12|0|0|7|1" />
+		<i3dMapping id="markerplateFRorange_real" 		node="0>0|2|12|0|1|7|0" />
+		<i3dMapping id="markerplateFRred_real" 			node="0>0|2|12|0|1|7|1" />
+		<i3dMapping id="markerplateRLorange_real" 		node="0>0|2|12|1|0|7|0" />
+		<i3dMapping id="markerplateRLred_real" 			node="0>0|2|12|1|0|7|1" />
+		<i3dMapping id="markerplateRRorange_real" 		node="0>0|2|12|1|1|7|0" />
+		<i3dMapping id="markerplateRRred_real" 			node="0>0|2|12|1|1|7|1" />
     </i3dMappings>
 </vehicle>
