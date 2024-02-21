@@ -52,72 +52,11 @@
 	</wheels>
 	
 	<rimColorConfigurations useDefaultColors="true" price="300" defaultColorIndex="0">
-		<rimColorConfiguration name="$l10n_ui_colorGrey"   color="SHARED_WHITE1"         material="18" price="0"/>
-		<rimColorConfiguration name="$l10n_ui_colorChrome" color="SHARED_WHITE2"         material="3"  price="300"/>
-        <rimColorConfiguration name="$l10n_ui_colorWhite"  color="SHARED_WHITE2"         material="0"  price="300"/>
-        <rimColorConfiguration name="$l10n_ui_colorBlack"  color="SHARED_DA_METAL_BLACK" material="0"  price="300"/>
-		<rimColorConfiguration name="$l10n_POLISHEDMETAL" material="8" color="0.98 0.98 0.98" price="300"/>
-		<rimColorConfiguration name="$l10n_ui_colorSilver" color="SHARED_WHITE1" material="18" price="300"/>
-		<rimColorConfiguration name="$l10n_SPECIALBLUE1"  color="0 0 1 0" price="300"/>
-		<rimColorConfiguration name="$l10n_SPECIALYELLOW" color="1.0000 0.7231 0.0000 0" price="300" />
-		<rimColorConfiguration name="$l10n_SPECIALBLUE2" color="0 0.09 0.09 0" price="300" />
-		<rimColorConfiguration name="$l10n_SPECIALGREEN" color="0.488 0.687 0.027" price="300" />
-		<rimColorConfiguration name="$l10n_BLACK" color="0 0 0 0" price="300" />
-		<rimColorConfiguration name="$l10n_MANRED" color="0.5605 0.0037 0.0037 0" price="300" />
-		<rimColorConfiguration name="$l10n_MANOLDGREEN" color="0.1878 0.3006 0.2159 0" price="300" />
-		<rimColorConfiguration name="MAN Beige" color="0.3021 0.2549 0.1734 0" price="300" />
-		<rimColorConfiguration name="TATRA" color="0.0200 0.2800 0.1900 0" price="300" />
-		<rimColorConfiguration name="$l10n_BROWN2" color="0.0886 0.0203 0.0012 0" price="300" />
-		<rimColorConfiguration name="$l10n_BLUE" material="0" color="0 0 1 0" price="300"/>
-		<rimColorConfiguration name="$l10n_BLUE1" color="0.0000 0.4047 0.7519 0" price="300" />
-		<rimColorConfiguration name="$l10n_BLUE2" color="0.0055 0.0170 0.0265 0" price="300" />
-		<rimColorConfiguration name="$l10n_BLUE3" color="0.0019 0.0059 0.0090 0" price="300" />
-		<rimColorConfiguration name="$l10n_GREEN1" color="0.1070 0.2086 0.2462 0" price="300" />
-		<rimColorConfiguration name="$l10n_GREEN2" color="0.0265 0.6592 0.3204 0" price="300" />
-		<rimColorConfiguration name="$l10n_GREEN3" color="0.0072 0.2758 0.0528 0" price="300" />
-		<rimColorConfiguration name="$l10n_GREEN4" color="0.0000 1.0000 0.0415 0" price="300" />
-		<rimColorConfiguration name="Pink" color="0.5924 0.1871 0.3723 0" price="300" />
-		<rimColorConfiguration name="$l10n_PINK/RED" color="0.8751 0.0017 0.0303 0" price="300" />
-		<rimColorConfiguration name="$l10n_BERRY" color="0.1087 0.0210 0.0370 0" price="300" />
-		<rimColorConfiguration name="$l10n_WHITE" color="1.0000 1.0000 1.0000 0" price="300" />
-		<rimColorConfiguration name="Orange" color="0.9157 0.1220 0.0066 0" price="300" />
-		<rimColorConfiguration name="$l10n_DARKGRAY" color="0.1220 0.1199 0.1199 0" price="300" />
-		<rimColorConfiguration name="$l10n_YELLOW1" color="0.8913 0.6456 0.2120 0" price="300" />
-		<rimColorConfiguration name="$l10n_YELLOW2" color="0.5054 0.3066 0.0231 0" price="300" />
-		<rimColorConfiguration name="$l10n_YELLOW3" color="0.8227 0.9131 0.0000 0" price="300" />
-		<rimColorConfiguration name="Violet 1" color="0.0802 0.0513 0.7231 0" price="300" />
-		<rimColorConfiguration name="Violet 2" color="0.0090 0.0014 0.0619 0" price="300" />
-		<rimColorConfiguration name="NAVY" color="0.0529 0.0865 0.0242 1" price="300" />
-		<rimColorConfiguration name="$l10n_SPECIALBLUE1METAL" material="27"  color="0 0 1 0" price="600"/>
-		<rimColorConfiguration name="$l10n_SPECIALYELLOWMETAL" material="27" color="1.0000 0.7231 0.0000 0" price="600" />
-		<rimColorConfiguration name="$l10n_SPECIALBLUE2METAL" material="27" color="0 0.09 0.09 0" price="600" />
-		<rimColorConfiguration name="$l10n_SPECIALGREENMETAL" material="27" color="0.488 0.687 0.027" price="600" />
-		<rimColorConfiguration name="$l10n_BLACKMETAL" material="27" color="0 0 0 0" price="600" />
-		<rimColorConfiguration name="$l10n_MANREDMETAL" material="27" color="0.5605 0.0037 0.0037 0" price="600" />
-		<rimColorConfiguration name="$l10n_MANOLDGREENMETAL" material="27" color="0.1878 0.3006 0.2159 0" price="600" />
-		<rimColorConfiguration name="MAN Beige Metal" material="27" color="0.3021 0.2549 0.1734 0" price="600" />
-		<rimColorConfiguration name="TATRA Metal" material="27" color="0.0200 0.2800 0.1900 0" price="600" />
-		<rimColorConfiguration name="$l10n_BROWNMETAL" material="27" color="0.0886 0.0203 0.0012 0" price="600" />
-		<rimColorConfiguration name="$l10n_BLUEMETAL" material="27" color="0 0 1 0" price="600"/>
-		<rimColorConfiguration name="$l10n_BLUE1METAL" material="27" color="0.0000 0.4047 0.7519 0" price="600" />
-		<rimColorConfiguration name="$l10n_BLUE2METAL" material="27" color="0.0055 0.0170 0.0265 0" price="600" />
-		<rimColorConfiguration name="$l10n_BLUE3METAL" material="27" color="0.0019 0.0059 0.0090 0" price="600" />
-		<rimColorConfiguration name="$l10n_GREEN1METAL" material="27" color="0.1070 0.2086 0.2462 0" price="600" />
-		<rimColorConfiguration name="$l10n_GREEN2METAL" material="27" color="0.0265 0.6592 0.3204 0" price="600" />
-		<rimColorConfiguration name="$l10n_GREEN3METAL" material="27" color="0.0072 0.2758 0.0528 0" price="600" />
-		<rimColorConfiguration name="$l10n_GREEN4METAL" material="27" color="0.0000 1.0000 0.0415 0" price="600" />
-		<rimColorConfiguration name="Pink Metal" material="27" color="0.5924 0.1871 0.3723 0" price="600" />
-		<rimColorConfiguration name="$l10n_PINK/REDMETAL" material="27" color="0.8751 0.0017 0.0303 0" price="600" />
-		<rimColorConfiguration name="$l10n_BERRYMETAL" material="27" color="0.1087 0.0210 0.0370 0" price="600" />
-		<rimColorConfiguration name="$l10n_WHITEMETAL" material="27" color="1.0000 1.0000 1.0000 0" price="600" />
-		<rimColorConfiguration name="Orange Metal" material="27" color="0.9157 0.1220 0.0066 0" price="600" />
-		<rimColorConfiguration name="$l10n_DARKGRAYMETAL" material="27" color="0.1220 0.1199 0.1199 0" price="600" />
-		<rimColorConfiguration name="$l10n_YELLOW1METAL" material="27" color="0.8913 0.6456 0.2120 0" price="600" />
-		<rimColorConfiguration name="$l10n_YELLOW2METAL" material="27" color="0.5054 0.3066 0.0231 0" price="600" />
-		<rimColorConfiguration name="$l10n_YELLOW3METAL" material="27" color="0.8227 0.9131 0.0000 0" price="600" />
-		<rimColorConfiguration name="Violet 1 Metal" material="27" color="0.0802 0.0513 0.7231 0" price="600" />
-		<rimColorConfiguration name="Violet 2 Metal" material="27" color="0.0090 0.0014 0.0619 0" price="600" />
-		<rimColorConfiguration name="NAVY METAL" material="27" color="0.0529 0.0865 0.0242 1" price="600" />
+		<rimColorConfiguration name="$l10n_ui_colorChrome" 	color="SHARED_WHITE2"       material="3"/>	
+		<rimColorConfiguration name="DennisK Dark Blue" 	color="0.005 0.001 0.533"/>
+		<rimColorConfiguration name="DennisK Light Blue" 	color="0.000 0.776 1.000"/>
+		<rimColorConfiguration name="DennisK Black" 		color="0 0 0"/>
+		<rimColorConfiguration name="Black Matt" 			color="0.015 0.015 0.015" 	material="23"/>
     </rimColorConfigurations>
 	
     <attachable>
@@ -291,136 +230,18 @@
     </baseMaterial>
 
     <baseMaterialConfigurations price="1500" useDefaultColors="true" defaultColorIndex="0" >
-        <baseMaterialConfiguration name="$l10n_SPECIALBLUE2"  material="0" color="0 0.09 0.09 0" price="0" />
-        <baseMaterialConfiguration name="$l10n_SPECIALBLUE1" material="0" color="0 0 1 0" price="1500"/>
-		<baseMaterialConfiguration name="$l10n_SPECIALYELLOW"  material="0" color="1.0000 0.7231 0.0000 0" price="1500" />
-		<baseMaterialConfiguration name="$l10n_SPECIALGREEN"  material="0" color="0.488 0.687 0.027" price="1500" />
-		<baseMaterialConfiguration name="$l10n_VolvoPurple" material="0" color="VOLVO_PURPLE1"  price="1500"/>
-		<baseMaterialConfiguration name="$l10n_VolvoRED" material="0" color="VOLVO_RED1"  price="1500"/>
-		<baseMaterialConfiguration name="$l10n_VolvoGREEN" material="0" color="VOLVO_BM_GREEN1"  price="1500"/>
-		<baseMaterialConfiguration name="$l10n_VolvoBLACK" material="0" color="SHARED_DA_METAL_BLACK"  price="1500"/>
-		<baseMaterialConfiguration name="$l10n_configuration_chassisColor" material="16" color="0.0296 0.0296 0.0319 16" price="1500" />
-        <baseMaterialConfiguration name="$l10n_MANRED" material="0" color="0.5605 0.0037 0.0037 0" price="1500" />
-		<baseMaterialConfiguration name="$l10n_MANOLDGREEN" material="0" color="0.1878 0.3006 0.2159 0" price="1500"/>
-		<baseMaterialConfiguration name="MAN Beige" material="0" color="0.3021 0.2549 0.1734 0" price="1500"/>
-		<baseMaterialConfiguration name="$l10n_BLACK" material="0" color="0 0 0 0" price="1500"/>
-		<baseMaterialConfiguration name="TATRA" material="0" color="0.0200 0.2800 0.1900 0" price="1500"/>
-		<baseMaterialConfiguration name="$l10n_BROWN2" material="0" color="0.0886 0.0203 0.0012 0" price="1500"/>
-		<baseMaterialConfiguration name="$l10n_BLUE1" material="0" color="0.0000 0.4047 0.7519 0" price="1500"/>
-		<baseMaterialConfiguration name="$l10n_BLUE2" material="0" color="0.0055 0.0170 0.0265 0" price="1500"/>
-		<baseMaterialConfiguration name="$l10n_BLUE3" material="0" color="0.0019 0.0059 0.0090 0" price="1500"/>
-		<baseMaterialConfiguration name="$l10n_GREEN1" material="0" color="0.1070 0.2086 0.2462 0" price="1500"/>
-		<baseMaterialConfiguration name="$l10n_GREEN2" material="0" color="0.0265 0.6592 0.3204 0" price="1500"/>
-		<baseMaterialConfiguration name="$l10n_GREEN3" material="0" color="0.0072 0.2758 0.0528 0" price="1500"/>
-		<baseMaterialConfiguration name="$l10n_GREEN4" material="0" color="0.0000 1.0000 0.0415 0" price="1500"/>
-		<baseMaterialConfiguration name="Pink" material="0" color="0.5924 0.1871 0.3723 0" price="1500"/>
-		<baseMaterialConfiguration name="$l10n_PINK/RED" material="0" color="0.8751 0.0017 0.0303 0" price="1500"/>
-		<baseMaterialConfiguration name="$l10n_BERRY" material="0" color="0.1087 0.0210 0.0370 0" price="1500"/>
-		<baseMaterialConfiguration name="$l10n_WHITE" material="0" color="1.0000 1.0000 1.0000 0" price="1500"/>
-		<baseMaterialConfiguration name="Orange" material="0" color="0.9157 0.1220 0.0066 0" price="1500"/>
-		<baseMaterialConfiguration name="$l10n_DARKGRAY" material="0" color="0.1220 0.1199 0.1199 0" price="1500"/>
-		<baseMaterialConfiguration name="$l10n_YELLOW1" material="0" color="0.8913 0.6456 0.2120 0" price="1500"/>
-		<baseMaterialConfiguration name="$l10n_YELLOW2" material="0" color="0.5054 0.3066 0.0231 0" price="1500"/>
-		<baseMaterialConfiguration name="$l10n_YELLOW3" material="0" color="0.8227 0.9131 0.0000 0" price="1500"/>
-		<baseMaterialConfiguration name="Violet 1" material="0" color="0.0802 0.0513 0.7231 0" price="1500"/>
-		<baseMaterialConfiguration name="Violet 2" material="0" color="0.0090 0.0014 0.0619 0" price="1500"/>
-		<baseMaterialConfiguration name="NAVY" material="0" color="0.0529 0.0865 0.0242 1" price="1500"/>
-		<baseMaterialConfiguration name="$l10n_SPECIALBLUE1METAL" material="27" color="0 0 1 0" price="2500"/>
-		<baseMaterialConfiguration name="$l10n_SPECIALYELLOWMETAL" material="27" color="1.0000 0.7231 0.0000 0" price="2500"/>
-		<baseMaterialConfiguration name="$l10n_SPECIALBLUE2METAL" material="27" color="0 0.09 0.09 0" price="2500"/>
-		<baseMaterialConfiguration name="$l10n_SPECIALGREENMETAL" material="27" color="0.488 0.687 0.027" price="2500" />
-		<baseMaterialConfiguration name="$l10n_MANREDMETAL" material="27" color="0.5605 0.0037 0.0037 0" price="2500"/>
-		<baseMaterialConfiguration name="$l10n_MANOLDGREENMETAL" material="27" color="0.1878 0.3006 0.2159 0" price="2500"/>
-		<baseMaterialConfiguration name="MAN Beige Metal" material="27" color="0.3021 0.2549 0.1734 0" price="2500"/>
-		<baseMaterialConfiguration name="$l10n_BLACKMETAL" material="27" color="0 0 0 0" price="2500"/>
-		<baseMaterialConfiguration name="TATRA Metal" material="27" color="0.0200 0.2800 0.1900 0" price="2500"/>
-		<baseMaterialConfiguration name="$l10n_BROWNMETAL" material="27" color="0.0886 0.0203 0.0012 0" price="2500"/>
-		<baseMaterialConfiguration name="$l10n_BLUE1METAL" material="27" color="0.0000 0.4047 0.7519 0" price="2500"/>
-		<baseMaterialConfiguration name="$l10n_BLUE2METAL" material="27" color="0.0055 0.0170 0.0265 0" price="2500"/>
-		<baseMaterialConfiguration name="$l10n_BLUE3METAL" material="27" color="0.0019 0.0059 0.0090 0" price="2500"/>
-		<baseMaterialConfiguration name="$l10n_GREEN1METAL" material="27" color="0.1070 0.2086 0.2462 0" price="2500"/>
-		<baseMaterialConfiguration name="$l10n_GREEN2METAL" material="27" color="0.0265 0.6592 0.3204 0" price="2500"/>
-		<baseMaterialConfiguration name="$l10n_GREEN3METAL" material="27" color="0.0072 0.2758 0.0528 0" price="2500"/>
-		<baseMaterialConfiguration name="$l10n_GREEN4METAL" material="27" color="0.0000 1.0000 0.0415 0" price="2500"/>
-		<baseMaterialConfiguration name="Pink Metal" material="27" color="0.5924 0.1871 0.3723 0" price="2500"/>
-		<baseMaterialConfiguration name="$l10n_PINK/REDMETAL" material="27" color="0.8751 0.0017 0.0303 0" price="2500"/>
-		<baseMaterialConfiguration name="$l10n_BERRYMETAL" material="27" color="0.1087 0.0210 0.0370 0" price="2500"/>
-		<baseMaterialConfiguration name="$l10n_WHITEMETAL" material="27" color="1.0000 1.0000 1.0000 0" price="2500"/>
-		<baseMaterialConfiguration name="Orange Metal" material="27" color="0.9157 0.1220 0.0066 0" price="2500"/>
-		<baseMaterialConfiguration name="$l10n_DARKGRAYMETAL" material="27" color="0.1220 0.1199 0.1199 0" price="2500"/>
-		<baseMaterialConfiguration name="$l10n_YELLOW1METAL" material="27" color="0.8913 0.6456 0.2120 0" price="2500"/>
-		<baseMaterialConfiguration name="$l10n_YELLOW2METAL" material="27" color="0.5054 0.3066 0.0231 0" price="2500"/>
-		<baseMaterialConfiguration name="$l10n_YELLOW3METAL" material="27" color="0.8227 0.9131 0.0000 0" price="2500"/>
-		<baseMaterialConfiguration name="Violet 1 Metal" material="27" color="0.0802 0.0513 0.7231 0" price="2500"/>
-		<baseMaterialConfiguration name="Violet 2 Metal" material="27" color="0.0090 0.0014 0.0619 0" price="2500"/>
-		<baseMaterialConfiguration name="NAVY Metal" material="27" color="0.0529 0.0865 0.0242 1" price="2500"/>
+		<baseMaterialConfiguration name="DennisK Dark Blue" 	color="0.005 0.001 0.533"/>
+		<baseMaterialConfiguration name="DennisK Light Blue" 	color="0.000 0.776 1.000"/>
+		<baseMaterialConfiguration name="DennisK Black" 		color="0 0 0"/>
+		<baseMaterialConfiguration name="Black Matt" 			color="0.015 0.015 0.015" material="23"/>
 		<material name="goldhoferStzVp2_mat" shaderParameter="colorMat0" />
     </baseMaterialConfigurations>
 	
 	<designMaterialConfigurations price="500" useDefaultColors="true" defaultColorIndex="3" >
-		<designMaterialConfiguration name="$l10n_SPECIALBLUE2"  material="0" color="0 0.09 0.09 0" price="0" />
-        <designMaterialConfiguration name="$l10n_SPECIALBLUE1" material="0" color="0 0 1 0" price="500"/>
-		<designMaterialConfiguration name="$l10n_SPECIALYELLOW"  material="0" color="1.0000 0.7231 0.0000 0" price="500" />
-		<designMaterialConfiguration name="$l10n_SPECIALGREEN"  material="0" color="0.488 0.687 0.027" price="500" />
-		<designMaterialConfiguration name="$l10n_VolvoPurple" material="0" color="VOLVO_PURPLE1"  price="500"/>
-		<designMaterialConfiguration name="$l10n_VolvoRED" material="0" color="VOLVO_RED1"  price="500"/>
-		<designMaterialConfiguration name="$l10n_VolvoGREEN" material="0" color="VOLVO_BM_GREEN1"  price="500"/>
-		<designMaterialConfiguration name="$l10n_VolvoBLACK" material="0" color="SHARED_DA_METAL_BLACK"  price="500"/>
-		<designMaterialConfiguration name="$l10n_configuration_chassisColor" material="16" color="0.0296 0.0296 0.0319 16" price="500" />
-        <designMaterialConfiguration name="$l10n_MANRED" material="0" color="0.5605 0.0037 0.0037 0" price="500" />
-		<designMaterialConfiguration name="$l10n_MANOLDGREEN" material="0" color="0.1878 0.3006 0.2159 0" price="500"/>
-		<designMaterialConfiguration name="MAN Beige" material="0" color="0.3021 0.2549 0.1734 0" price="500"/>
-		<designMaterialConfiguration name="$l10n_BLACK" material="0" color="0 0 0 0" price="500"/>
-		<designMaterialConfiguration name="TATRA" material="0" color="0.0200 0.2800 0.1900 0" price="500"/>
-		<designMaterialConfiguration name="$l10n_BROWN2" material="0" color="0.0886 0.0203 0.0012 0" price="500"/>
-		<designMaterialConfiguration name="$l10n_BLUE1" material="0" color="0.0000 0.4047 0.7519 0" price="500"/>
-		<designMaterialConfiguration name="$l10n_BLUE2" material="0" color="0.0055 0.0170 0.0265 0" price="500"/>
-		<designMaterialConfiguration name="$l10n_BLUE3" material="0" color="0.0019 0.0059 0.0090 0" price="500"/>
-		<designMaterialConfiguration name="$l10n_GREEN1" material="0" color="0.1070 0.2086 0.2462 0" price="500"/>
-		<designMaterialConfiguration name="$l10n_GREEN2" material="0" color="0.0265 0.6592 0.3204 0" price="500"/>
-		<designMaterialConfiguration name="$l10n_GREEN3" material="0" color="0.0072 0.2758 0.0528 0" price="500"/>
-		<designMaterialConfiguration name="$l10n_GREEN4" material="0" color="0.0000 1.0000 0.0415 0" price="500"/>
-		<designMaterialConfiguration name="Pink" material="0" color="0.5924 0.1871 0.3723 0" price="500"/>
-		<designMaterialConfiguration name="$l10n_PINK/RED" material="0" color="0.8751 0.0017 0.0303 0" price="500"/>
-		<designMaterialConfiguration name="$l10n_BERRY" material="0" color="0.1087 0.0210 0.0370 0" price="500"/>
-		<designMaterialConfiguration name="$l10n_WHITE" material="0" color="1.0000 1.0000 1.0000 0" price="500"/>
-		<designMaterialConfiguration name="Orange" material="0" color="0.9157 0.1220 0.0066 0" price="500"/>
-		<designMaterialConfiguration name="$l10n_DARKGRAY" material="0" color="0.1220 0.1199 0.1199 0" price="500"/>
-		<designMaterialConfiguration name="$l10n_YELLOW1" material="0" color="0.8913 0.6456 0.2120 0" price="500"/>
-		<designMaterialConfiguration name="$l10n_YELLOW2" material="0" color="0.5054 0.3066 0.0231 0" price="500"/>
-		<designMaterialConfiguration name="$l10n_YELLOW3" material="0" color="0.8227 0.9131 0.0000 0" price="500"/>
-		<designMaterialConfiguration name="Violet 1" material="0" color="0.0802 0.0513 0.7231 0" price="500"/>
-		<designMaterialConfiguration name="Violet 2" material="0" color="0.0090 0.0014 0.0619 0" price="500"/>
-		<designMaterialConfiguration name="NAVY" material="0" color="0.0529 0.0865 0.0242 1" price="500"/>
-		<designMaterialConfiguration name="$l10n_SPECIALBLUE1METAL" material="27" color="0 0 1 0" price="800"/>
-		<designMaterialConfiguration name="$l10n_SPECIALYELLOWMETAL" material="27" color="1.0000 0.7231 0.0000 0" price="800"/>
-		<designMaterialConfiguration name="$l10n_SPECIALBLUE2METAL" material="27" color="0 0.09 0.09 0" price="800"/>
-		<designMaterialConfiguration name="$l10n_SPECIALGREENMETAL" material="27" color="0.488 0.687 0.027" price="800" />
-		<designMaterialConfiguration name="$l10n_MANREDMETAL" material="27" color="0.5605 0.0037 0.0037 0" price="800"/>
-		<designMaterialConfiguration name="$l10n_MANOLDGREENMETAL" material="27" color="0.1878 0.3006 0.2159 0" price="800"/>
-		<designMaterialConfiguration name="MAN Beige Metal" material="27" color="0.3021 0.2549 0.1734 0" price="800"/>
-		<designMaterialConfiguration name="$l10n_BLACKMETAL" material="27" color="0 0 0 0" price="800"/>
-		<designMaterialConfiguration name="TATRA Metal" material="27" color="0.0200 0.2800 0.1900 0" price="800"/>
-		<designMaterialConfiguration name="$l10n_BROWNMETAL" material="27" color="0.0886 0.0203 0.0012 0" price="800"/>
-		<designMaterialConfiguration name="$l10n_BLUE1METAL" material="27" color="0.0000 0.4047 0.7519 0" price="800"/>
-		<designMaterialConfiguration name="$l10n_BLUE2METAL" material="27" color="0.0055 0.0170 0.0265 0" price="800"/>
-		<designMaterialConfiguration name="$l10n_BLUE3METAL" material="27" color="0.0019 0.0059 0.0090 0" price="800"/>
-		<designMaterialConfiguration name="$l10n_GREEN1METAL" material="27" color="0.1070 0.2086 0.2462 0" price="800"/>
-		<designMaterialConfiguration name="$l10n_GREEN2METAL" material="27" color="0.0265 0.6592 0.3204 0" price="800"/>
-		<designMaterialConfiguration name="$l10n_GREEN3METAL" material="27" color="0.0072 0.2758 0.0528 0" price="800"/>
-		<designMaterialConfiguration name="$l10n_GREEN4METAL" material="27" color="0.0000 1.0000 0.0415 0" price="800"/>
-		<designMaterialConfiguration name="Pink Metal" material="27" color="0.5924 0.1871 0.3723 0" price="800"/>
-		<designMaterialConfiguration name="$l10n_PINK/REDMETAL" material="27" color="0.8751 0.0017 0.0303 0" price="800"/>
-		<designMaterialConfiguration name="$l10n_BERRYMETAL" material="27" color="0.1087 0.0210 0.0370 0" price="800"/>
-		<designMaterialConfiguration name="$l10n_WHITEMETAL" material="27" color="1.0000 1.0000 1.0000 0" price="800"/>
-		<designMaterialConfiguration name="Orange Metal" material="27" color="0.9157 0.1220 0.0066 0" price="800"/>
-		<designMaterialConfiguration name="$l10n_DARKGRAYMETAL" material="27" color="0.1220 0.1199 0.1199 0" price="800"/>
-		<designMaterialConfiguration name="$l10n_YELLOW1METAL" material="27" color="0.8913 0.6456 0.2120 0" price="800"/>
-		<designMaterialConfiguration name="$l10n_YELLOW2METAL" material="27" color="0.5054 0.3066 0.0231 0" price="800"/>
-		<designMaterialConfiguration name="$l10n_YELLOW3METAL" material="27" color="0.8227 0.9131 0.0000 0" price="800"/>
-		<designMaterialConfiguration name="Violet 1 Metal" material="27" color="0.0802 0.0513 0.7231 0" price="800"/>
-		<designMaterialConfiguration name="Violet 2 Metal" material="27" color="0.0090 0.0014 0.0619 0" price="800"/>
-		<designMaterialConfiguration name="NAVY Metal" material="27" color="0.0529 0.0865 0.0242 1" price="800"/>
+		<designMaterialConfiguration name="DennisK Dark Blue" 	color="0.005 0.001 0.533"/>
+		<designMaterialConfiguration name="DennisK Light Blue" 	color="0.000 0.776 1.000"/>
+		<designMaterialConfiguration name="DennisK Black" 		color="0 0 0"/>
+		<designMaterialConfiguration name="Black Matt" 			color="0.015 0.015 0.015" material="23"/>
 		<material name="goldhoferStzVp2_mat" shaderParameter="colorMat7" />
     </designMaterialConfigurations>
 	

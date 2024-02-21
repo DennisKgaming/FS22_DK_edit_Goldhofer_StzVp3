@@ -91,72 +91,12 @@
     </wheels>
 	
 	<rimColorConfigurations useDefaultColors="true" price="300" defaultColorIndex="0">
-		<rimColorConfiguration name="$l10n_ui_colorGrey"   color="SHARED_WHITE1"         material="18" price="0"/>
-		<rimColorConfiguration name="$l10n_ui_colorChrome" color="SHARED_WHITE2"         material="3"  price="300"/>
-        <rimColorConfiguration name="$l10n_ui_colorWhite"  color="SHARED_WHITE2"         material="0"  price="300"/>
-        <rimColorConfiguration name="$l10n_ui_colorBlack"  color="SHARED_DA_METAL_BLACK" material="0"  price="300"/>
-		<rimColorConfiguration name="$l10n_POLISHEDMETAL" material="8" color="0.98 0.98 0.98" price="300"/>
-		<rimColorConfiguration name="$l10n_ui_colorSilver" color="SHARED_WHITE1" material="18" price="300"/>
-		<rimColorConfiguration name="$l10n_SPECIALBLUE1"  color="0 0 1 0" price="300"/>
-		<rimColorConfiguration name="$l10n_SPECIALYELLOW" color="1.0000 0.7231 0.0000 0" price="300" />
-		<rimColorConfiguration name="$l10n_SPECIALBLUE2" color="0 0.09 0.09 0" price="300" />
-		<rimColorConfiguration name="$l10n_SPECIALGREEN" color="0.488 0.687 0.027" price="300" />
-		<rimColorConfiguration name="$l10n_BLACK" color="0 0 0 0" price="300" />
-		<rimColorConfiguration name="$l10n_MANRED" color="0.5605 0.0037 0.0037 0" price="300" />
-		<rimColorConfiguration name="$l10n_MANOLDGREEN" color="0.1878 0.3006 0.2159 0" price="300" />
-		<rimColorConfiguration name="MAN Beige" color="0.3021 0.2549 0.1734 0" price="300" />
-		<rimColorConfiguration name="TATRA" color="0.0200 0.2800 0.1900 0" price="300" />
-		<rimColorConfiguration name="$l10n_BROWN2" color="0.0886 0.0203 0.0012 0" price="300" />
-		<rimColorConfiguration name="$l10n_BLUE" material="0" color="0 0 1 0" price="300"/>
-		<rimColorConfiguration name="$l10n_BLUE1" color="0.0000 0.4047 0.7519 0" price="300" />
-		<rimColorConfiguration name="$l10n_BLUE2" color="0.0055 0.0170 0.0265 0" price="300" />
-		<rimColorConfiguration name="$l10n_BLUE3" color="0.0019 0.0059 0.0090 0" price="300" />
-		<rimColorConfiguration name="$l10n_GREEN1" color="0.1070 0.2086 0.2462 0" price="300" />
-		<rimColorConfiguration name="$l10n_GREEN2" color="0.0265 0.6592 0.3204 0" price="300" />
-		<rimColorConfiguration name="$l10n_GREEN3" color="0.0072 0.2758 0.0528 0" price="300" />
-		<rimColorConfiguration name="$l10n_GREEN4" color="0.0000 1.0000 0.0415 0" price="300" />
-		<rimColorConfiguration name="Pink" color="0.5924 0.1871 0.3723 0" price="300" />
-		<rimColorConfiguration name="$l10n_PINK/RED" color="0.8751 0.0017 0.0303 0" price="300" />
-		<rimColorConfiguration name="$l10n_BERRY" color="0.1087 0.0210 0.0370 0" price="300" />
-		<rimColorConfiguration name="$l10n_WHITE" color="1.0000 1.0000 1.0000 0" price="300" />
-		<rimColorConfiguration name="Orange" color="0.9157 0.1220 0.0066 0" price="300" />
-		<rimColorConfiguration name="$l10n_DARKGRAY" color="0.1220 0.1199 0.1199 0" price="300" />
-		<rimColorConfiguration name="$l10n_YELLOW1" color="0.8913 0.6456 0.2120 0" price="300" />
-		<rimColorConfiguration name="$l10n_YELLOW2" color="0.5054 0.3066 0.0231 0" price="300" />
-		<rimColorConfiguration name="$l10n_YELLOW3" color="0.8227 0.9131 0.0000 0" price="300" />
-		<rimColorConfiguration name="Violet 1" color="0.0802 0.0513 0.7231 0" price="300" />
-		<rimColorConfiguration name="Violet 2" color="0.0090 0.0014 0.0619 0" price="300" />
-		<rimColorConfiguration name="NAVY" color="0.0529 0.0865 0.0242 1" price="300" />
-		<rimColorConfiguration name="$l10n_SPECIALBLUE1METAL" material="27"  color="0 0 1 0" price="600"/>
-		<rimColorConfiguration name="$l10n_SPECIALYELLOWMETAL" material="27" color="1.0000 0.7231 0.0000 0" price="600" />
-		<rimColorConfiguration name="$l10n_SPECIALBLUE2METAL" material="27" color="0 0.09 0.09 0" price="600" />
-		<rimColorConfiguration name="$l10n_SPECIALGREENMETAL" material="27" color="0.488 0.687 0.027" price="600" />
-		<rimColorConfiguration name="$l10n_BLACKMETAL" material="27" color="0 0 0 0" price="600" />
-		<rimColorConfiguration name="$l10n_MANREDMETAL" material="27" color="0.5605 0.0037 0.0037 0" price="600" />
-		<rimColorConfiguration name="$l10n_MANOLDGREENMETAL" material="27" color="0.1878 0.3006 0.2159 0" price="600" />
-		<rimColorConfiguration name="MAN Beige Metal" material="27" color="0.3021 0.2549 0.1734 0" price="600" />
-		<rimColorConfiguration name="TATRA Metal" material="27" color="0.0200 0.2800 0.1900 0" price="600" />
-		<rimColorConfiguration name="$l10n_BROWNMETAL" material="27" color="0.0886 0.0203 0.0012 0" price="600" />
-		<rimColorConfiguration name="$l10n_BLUEMETAL" material="27" color="0 0 1 0" price="600"/>
-		<rimColorConfiguration name="$l10n_BLUE1METAL" material="27" color="0.0000 0.4047 0.7519 0" price="600" />
-		<rimColorConfiguration name="$l10n_BLUE2METAL" material="27" color="0.0055 0.0170 0.0265 0" price="600" />
-		<rimColorConfiguration name="$l10n_BLUE3METAL" material="27" color="0.0019 0.0059 0.0090 0" price="600" />
-		<rimColorConfiguration name="$l10n_GREEN1METAL" material="27" color="0.1070 0.2086 0.2462 0" price="600" />
-		<rimColorConfiguration name="$l10n_GREEN2METAL" material="27" color="0.0265 0.6592 0.3204 0" price="600" />
-		<rimColorConfiguration name="$l10n_GREEN3METAL" material="27" color="0.0072 0.2758 0.0528 0" price="600" />
-		<rimColorConfiguration name="$l10n_GREEN4METAL" material="27" color="0.0000 1.0000 0.0415 0" price="600" />
-		<rimColorConfiguration name="Pink Metal" material="27" color="0.5924 0.1871 0.3723 0" price="600" />
-		<rimColorConfiguration name="$l10n_PINK/REDMETAL" material="27" color="0.8751 0.0017 0.0303 0" price="600" />
-		<rimColorConfiguration name="$l10n_BERRYMETAL" material="27" color="0.1087 0.0210 0.0370 0" price="600" />
-		<rimColorConfiguration name="$l10n_WHITEMETAL" material="27" color="1.0000 1.0000 1.0000 0" price="600" />
-		<rimColorConfiguration name="Orange Metal" material="27" color="0.9157 0.1220 0.0066 0" price="600" />
-		<rimColorConfiguration name="$l10n_DARKGRAYMETAL" material="27" color="0.1220 0.1199 0.1199 0" price="600" />
-		<rimColorConfiguration name="$l10n_YELLOW1METAL" material="27" color="0.8913 0.6456 0.2120 0" price="600" />
-		<rimColorConfiguration name="$l10n_YELLOW2METAL" material="27" color="0.5054 0.3066 0.0231 0" price="600" />
-		<rimColorConfiguration name="$l10n_YELLOW3METAL" material="27" color="0.8227 0.9131 0.0000 0" price="600" />
-		<rimColorConfiguration name="Violet 1 Metal" material="27" color="0.0802 0.0513 0.7231 0" price="600" />
-		<rimColorConfiguration name="Violet 2 Metal" material="27" color="0.0090 0.0014 0.0619 0" price="600" />
-		<rimColorConfiguration name="NAVY METAL" material="27" color="0.0529 0.0865 0.0242 1" price="600" />
+		<rimColorConfiguration name="$l10n_ui_colorChrome" 	color="SHARED_WHITE2"       material="3"/>	
+		<rimColorConfiguration name="DennisK Dark Blue" 	color="0.005 0.001 0.533"/>
+		<rimColorConfiguration name="DennisK Light Blue" 	color="0.000 0.776 1.000"/>
+		<rimColorConfiguration name="DennisK Black" 		color="0 0 0"/>
+		<rimColorConfiguration name="Black Matt" 			color="0.015 0.015 0.015" 	material="23"/>
+        
     </rimColorConfigurations>
 	
     <attachable>
@@ -168,94 +108,90 @@
         <brakeForce force="0.5" />
     </attachable>
 
-    <lights>
-        <sharedLight linkNode="rearPlateNumberLight_01_1" filename="$data/shared/assets/lights/lizard/plateNumberLight01.xml" />
-        <sharedLight linkNode="rearPlateNumberLight_01_2" filename="$data/shared/assets/lights/lizard/plateNumberLight01.xml" />
-        <sharedLight linkNode="redTriangle_01_1" filename="$data/shared/assets/reflectors/lizard/redTriangle_01.xml" />
-        <sharedLight linkNode="redTriangle_01_2" filename="$data/shared/assets/reflectors/lizard/redTriangle_01.xml" />
-        <sharedLight linkNode="workingLightSquare_03_1" filename="$data/shared/assets/lights/lizard/rearLight22White.xml" />
-        <sharedLight linkNode="workingLightSquare_03_2" filename="$data/shared/assets/lights/lizard/rearLight22White.xml" />
-        <sharedLight linkNode="rearMultipointLight_02_left" filename="$data/shared/assets/lights/lizard/rearLight31_left.xml" />
-        <sharedLight linkNode="rearMultipointLight_02_right" filename="$data/shared/assets/lights/lizard/rearLight31_right.xml" />
-        <sharedLight linkNode="sideMarker_09Orange_1" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
-        <sharedLight linkNode="sideMarker_09Orange_2" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
-        <sharedLight linkNode="sideMarker_09Orange_3" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
-        <sharedLight linkNode="sideMarker_09Orange_4" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
-        <sharedLight linkNode="sideMarker_09Orange_5" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
-        <sharedLight linkNode="sideMarker_09Orange_6" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
-        <sharedLight linkNode="sideMarker_09Orange_7" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
-        <sharedLight linkNode="sideMarker_09Orange_8" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
-        <sharedLight linkNode="sideMarker_09Orange_9" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
-        <sharedLight linkNode="sideMarker_09Orange_10" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
-        <sharedLight linkNode="sideMarker_09Orange_11" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
-        <sharedLight linkNode="sideMarker_09Orange_12" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
-		<sharedLight linkNode="0>0|2|12|0|0|4" filename="$data/shared/assets/lights/lizard/rearLight23Red.xml" />
-        <sharedLight linkNode="0>0|2|12|0|0|5" filename="$data/shared/assets/lights/lizard/rearLight23Red.xml" />
-        <sharedLight linkNode="0>0|2|12|0|0|6" filename="$data/shared/assets/lights/lizard/rearLight23Red.xml" />
-        <sharedLight linkNode="0>0|2|12|0|1|4" filename="$data/shared/assets/lights/lizard/rearLight23Red.xml" />
-        <sharedLight linkNode="0>0|2|12|0|1|5" filename="$data/shared/assets/lights/lizard/rearLight23Red.xml" />
-        <sharedLight linkNode="0>0|2|12|0|1|6" filename="$data/shared/assets/lights/lizard/rearLight23Red.xml" />
-        <sharedLight linkNode="0>0|2|12|1|0|4" filename="$data/shared/assets/lights/lizard/rearLight23Red.xml" />
-        <sharedLight linkNode="0>0|2|12|1|0|5" filename="$data/shared/assets/lights/lizard/rearLight23Red.xml" />
-        <sharedLight linkNode="0>0|2|12|1|0|6" filename="$data/shared/assets/lights/lizard/rearLight23Red.xml" />
-        <sharedLight linkNode="0>0|2|12|1|1|4" filename="$data/shared/assets/lights/lizard/rearLight23Red.xml" />
-        <sharedLight linkNode="0>0|2|12|1|1|5" filename="$data/shared/assets/lights/lizard/rearLight23Red.xml" />
-        <sharedLight linkNode="0>0|2|12|1|1|6" filename="$data/shared/assets/lights/lizard/rearLight23Red.xml" />
-		<sharedLight linkNode="LED1" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
-		<sharedLight linkNode="LED2" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
-		<sharedLight linkNode="LED3" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
-		<sharedLight linkNode="LED4" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
-		<sharedLight linkNode="LED5" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
-		<sharedLight linkNode="LED6" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
-		<sharedLight linkNode="LED7" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
-		<sharedLight linkNode="LED8" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
-		<sharedLight linkNode="LED9" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
-		<sharedLight linkNode="LED10" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
-		<sharedLight linkNode="LED11" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
-		<sharedLight linkNode="LED12" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
-		<sharedLight linkNode="LED13" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
-		<sharedLight linkNode="LED14" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
-		<sharedLight linkNode="LED15" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
-		<sharedLight linkNode="LED16" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
-		<sharedLight linkNode="LED17" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
-		<sharedLight linkNode="LED18" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
-		<sharedLight linkNode="LED19" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
-		<sharedLight linkNode="LED20" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
-		<sharedLight linkNode="LED21" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
-		<sharedLight linkNode="LED22" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
-		<sharedLight linkNode="LED23" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
-		<sharedLight linkNode="LED24" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
-		<sharedLight linkNode="LED25" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
-		<sharedLight linkNode="LED26" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
-		<sharedLight linkNode="LED27" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
-		<sharedLight linkNode="LED28" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
-		<sharedLight linkNode="ausschub1" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
-		<sharedLight linkNode="ausschub2" filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
-		<sharedLight linkNode="HRFF_GlubschieLio" filename="lights/HRFFLicht/HRFFGlubchies.xml" />
-		<sharedLight linkNode="HRFF_GlubschieLiu" filename="lights/HRFFLicht/HRFFGlubchies.xml" />
-		<sharedLight linkNode="HRFF_GlubschieReo" filename="lights/HRFFLicht/HRFFGlubchies.xml" />
-		<sharedLight linkNode="HRFF_GlubschieReu" filename="lights/HRFFLicht/HRFFGlubchies.xml" />
+    <lights>	
+        <sharedLight linkNode="rearPlateNumberLight_01_1"		filename="$data/shared/assets/lights/lizard/plateNumberLight01.xml" />
+        <sharedLight linkNode="rearPlateNumberLight_01_2" 		filename="$data/shared/assets/lights/lizard/plateNumberLight01.xml" />
+        <sharedLight linkNode="redTriangle_01_1" 				filename="$data/shared/assets/reflectors/lizard/redTriangle_01.xml" />
+        <sharedLight linkNode="redTriangle_01_2" 				filename="$data/shared/assets/reflectors/lizard/redTriangle_01.xml" />
+        <sharedLight linkNode="workingLightSquare_03_1" 		filename="$data/shared/assets/lights/lizard/rearLight22White.xml" />
+        <sharedLight linkNode="workingLightSquare_03_2" 		filename="$data/shared/assets/lights/lizard/rearLight22White.xml" />
+        <sharedLight linkNode="rearMultipointLight_02_left" 	filename="$data/shared/assets/lights/lizard/rearLight31_left.xml" />
+        <sharedLight linkNode="rearMultipointLight_02_right"	filename="$data/shared/assets/lights/lizard/rearLight31_right.xml" />
+        <sharedLight linkNode="sideMarker_09Orange_1" 			filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+        <sharedLight linkNode="sideMarker_09Orange_2" 			filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+        <sharedLight linkNode="sideMarker_09Orange_3" 			filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+        <sharedLight linkNode="sideMarker_09Orange_4" 			filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+        <sharedLight linkNode="sideMarker_09Orange_5" 			filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+        <sharedLight linkNode="sideMarker_09Orange_6" 			filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+        <sharedLight linkNode="sideMarker_09Orange_7" 			filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+        <sharedLight linkNode="sideMarker_09Orange_8" 			filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+        <sharedLight linkNode="sideMarker_09Orange_9" 			filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+        <sharedLight linkNode="sideMarker_09Orange_10" 			filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+        <sharedLight linkNode="sideMarker_09Orange_11" 			filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+        <sharedLight linkNode="sideMarker_09Orange_12" 			filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+		<sharedLight linkNode="0>0|2|12|0|0|4" 					filename="$data/shared/assets/lights/lizard/rearLight23Red.xml" />
+        <sharedLight linkNode="0>0|2|12|0|0|5" 					filename="$data/shared/assets/lights/lizard/rearLight23Red.xml" />
+        <sharedLight linkNode="0>0|2|12|0|0|6" 					filename="$data/shared/assets/lights/lizard/rearLight23Red.xml" />
+        <sharedLight linkNode="0>0|2|12|0|1|4" 					filename="$data/shared/assets/lights/lizard/rearLight23Red.xml" />
+        <sharedLight linkNode="0>0|2|12|0|1|5" 					filename="$data/shared/assets/lights/lizard/rearLight23Red.xml" />
+        <sharedLight linkNode="0>0|2|12|0|1|6" 					filename="$data/shared/assets/lights/lizard/rearLight23Red.xml" />
+        <sharedLight linkNode="0>0|2|12|1|0|4" 					filename="$data/shared/assets/lights/lizard/rearLight23Red.xml" />
+        <sharedLight linkNode="0>0|2|12|1|0|5" 					filename="$data/shared/assets/lights/lizard/rearLight23Red.xml" />
+        <sharedLight linkNode="0>0|2|12|1|0|6" 					filename="$data/shared/assets/lights/lizard/rearLight23Red.xml" />
+        <sharedLight linkNode="0>0|2|12|1|1|4" 					filename="$data/shared/assets/lights/lizard/rearLight23Red.xml" />
+        <sharedLight linkNode="0>0|2|12|1|1|5" 					filename="$data/shared/assets/lights/lizard/rearLight23Red.xml" />
+        <sharedLight linkNode="0>0|2|12|1|1|6" 					filename="$data/shared/assets/lights/lizard/rearLight23Red.xml" />
+		<sharedLight linkNode="LED1" 							filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+		<sharedLight linkNode="LED2" 							filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+		<sharedLight linkNode="LED3" 							filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+		<sharedLight linkNode="LED4" 							filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+		<sharedLight linkNode="LED5" 							filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+		<sharedLight linkNode="LED6" 							filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+		<sharedLight linkNode="LED7" 							filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+		<sharedLight linkNode="LED8" 							filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+		<sharedLight linkNode="LED9" 							filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+		<sharedLight linkNode="LED10" 							filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+		<sharedLight linkNode="LED11" 							filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+		<sharedLight linkNode="LED12" 							filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+		<sharedLight linkNode="LED13" 							filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+		<sharedLight linkNode="LED14" 							filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+		<sharedLight linkNode="LED15" 							filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+		<sharedLight linkNode="LED16" 							filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+		<sharedLight linkNode="LED17" 							filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+		<sharedLight linkNode="LED18" 							filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+		<sharedLight linkNode="LED19" 							filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+		<sharedLight linkNode="LED20" 							filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+		<sharedLight linkNode="LED21" 							filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+		<sharedLight linkNode="LED22" 							filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+		<sharedLight linkNode="LED23" 							filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+		<sharedLight linkNode="LED24" 							filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+		<sharedLight linkNode="LED25" 							filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+		<sharedLight linkNode="LED26" 							filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+		<sharedLight linkNode="LED27" 							filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+		<sharedLight linkNode="LED28" 							filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+		<sharedLight linkNode="ausschub1" 						filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+		<sharedLight linkNode="ausschub2" 						filename="$data/shared/assets/lights/lizard/rearLight23Orange.xml" />
+		<sharedLight linkNode="HRFF_GlubschieLio" 				filename="lights/HRFFLicht/HRFFGlubchies.xml" />
+		<sharedLight linkNode="HRFF_GlubschieLiu" 				filename="lights/HRFFLicht/HRFFGlubchies.xml" />
+		<sharedLight linkNode="HRFF_GlubschieReo" 				filename="lights/HRFFLicht/HRFFGlubchies.xml" />
+		<sharedLight linkNode="HRFF_GlubschieReu" 				filename="lights/HRFFLicht/HRFFGlubchies.xml" />
         <realLights>
 			<low>
-                <light node="backLightsHigh" lightTypes="0" />
-                <!-- <light node="0>0|2|2|1|1" lightTypes="0" /> -->
-                <!-- <light node="0>0|6|2" lightTypes="0" /> -->
-                <reverseLight node="workLightBackHigh" />
-                <turnLightLeft node="turnLightLeftBack" />
-                <turnLightRight node="turnLightRightBack" />
-                <brakeLight node="backLightsHigh" />
-                <reverseLight node="reverseLight" />
+                <light 				node="backLightsHigh" 	lightTypes="0" />
+                <reverseLight 		node="workLightBackHigh" />
+                <turnLightLeft 		node="turnLightLeftBack" />
+                <turnLightRight		node="turnLightRightBack" />
+                <brakeLight 		node="backLightsHigh" />
+                <reverseLight 		node="reverseLight" />
             </low>
             <high>
-                <light node="backLightsHigh" lightTypes="0" />
-                <!-- <light node="0>0|2|2|1|1" lightTypes="0" /> -->
-                <!-- <light node="0>0|6|2" lightTypes="0" /> -->
-                <reverseLight node="workLightBackHigh" />
-                <turnLightLeft node="turnLightLeftBack" />
-                <turnLightRight node="turnLightRightBack" />
-                <brakeLight node="backLightsHigh" />
-                <reverseLight node="reverseLight" />
-				<light node="0>0|2|2|1|2" lightTypes="0" />
+                <light 				node="backLightsHigh" 	lightTypes="0" />
+                <reverseLight 		node="workLightBackHigh" />
+                <turnLightLeft 		node="turnLightLeftBack" />
+                <turnLightRight 	node="turnLightRightBack" />
+                <brakeLight 		node="backLightsHigh" />
+                <reverseLight 		node="reverseLight" />
+				<light 				node="0>0|2|2|1|2" 		lightTypes="0" />
             </high>
         </realLights>
         <beaconLights>
@@ -467,69 +403,10 @@
     </baseMaterial>
 
 	<baseMaterialConfigurations price="1500" useDefaultColors="true" defaultColorIndex="0" >
-		<baseMaterialConfiguration name="$l10n_SPECIALBLUE2"  material="0" color="0 0.09 0.09 0" price="0" />
-        <baseMaterialConfiguration name="$l10n_SPECIALBLUE1" material="0" color="0 0 1 0" price="1500"/>
-		<baseMaterialConfiguration name="$l10n_SPECIALYELLOW"  material="0" color="1.0000 0.7231 0.0000 0" price="1500" />
-		<baseMaterialConfiguration name="$l10n_SPECIALGREEN"  material="0" color="0.488 0.687 0.027" price="1500" />
-		<baseMaterialConfiguration name="$l10n_VolvoPurple" material="0" color="VOLVO_PURPLE1"  price="1500"/>
-		<baseMaterialConfiguration name="$l10n_VolvoRED" material="0" color="VOLVO_RED1"  price="1500"/>
-		<baseMaterialConfiguration name="$l10n_VolvoGREEN" material="0" color="VOLVO_BM_GREEN1"  price="1500"/>
-		<baseMaterialConfiguration name="$l10n_VolvoBLACK" material="0" color="SHARED_DA_METAL_BLACK"  price="1500"/>
-		<baseMaterialConfiguration name="$l10n_configuration_chassisColor" material="16" color="0.0296 0.0296 0.0319 16" price="1500" />
-        <baseMaterialConfiguration name="$l10n_MANRED" material="0" color="0.5605 0.0037 0.0037 0" price="1500" />
-		<baseMaterialConfiguration name="$l10n_MANOLDGREEN" material="0" color="0.1878 0.3006 0.2159 0" price="1500"/>
-		<baseMaterialConfiguration name="MAN Beige" material="0" color="0.3021 0.2549 0.1734 0" price="1500"/>
-		<baseMaterialConfiguration name="$l10n_BLACK" material="0" color="0 0 0 0" price="1500"/>
-		<baseMaterialConfiguration name="TATRA" material="0" color="0.0200 0.2800 0.1900 0" price="1500"/>
-		<baseMaterialConfiguration name="$l10n_BROWN2" material="0" color="0.0886 0.0203 0.0012 0" price="1500"/>
-		<baseMaterialConfiguration name="$l10n_BLUE1" material="0" color="0.0000 0.4047 0.7519 0" price="1500"/>
-		<baseMaterialConfiguration name="$l10n_BLUE2" material="0" color="0.0055 0.0170 0.0265 0" price="1500"/>
-		<baseMaterialConfiguration name="$l10n_BLUE3" material="0" color="0.0019 0.0059 0.0090 0" price="1500"/>
-		<baseMaterialConfiguration name="$l10n_GREEN1" material="0" color="0.1070 0.2086 0.2462 0" price="1500"/>
-		<baseMaterialConfiguration name="$l10n_GREEN2" material="0" color="0.0265 0.6592 0.3204 0" price="1500"/>
-		<baseMaterialConfiguration name="$l10n_GREEN3" material="0" color="0.0072 0.2758 0.0528 0" price="1500"/>
-		<baseMaterialConfiguration name="$l10n_GREEN4" material="0" color="0.0000 1.0000 0.0415 0" price="1500"/>
-		<baseMaterialConfiguration name="Pink" material="0" color="0.5924 0.1871 0.3723 0" price="1500"/>
-		<baseMaterialConfiguration name="$l10n_PINK/RED" material="0" color="0.8751 0.0017 0.0303 0" price="1500"/>
-		<baseMaterialConfiguration name="$l10n_BERRY" material="0" color="0.1087 0.0210 0.0370 0" price="1500"/>
-		<baseMaterialConfiguration name="$l10n_WHITE" material="0" color="1.0000 1.0000 1.0000 0" price="1500"/>
-		<baseMaterialConfiguration name="Orange" material="0" color="0.9157 0.1220 0.0066 0" price="1500"/>
-		<baseMaterialConfiguration name="$l10n_DARKGRAY" material="0" color="0.1220 0.1199 0.1199 0" price="1500"/>
-		<baseMaterialConfiguration name="$l10n_YELLOW1" material="0" color="0.8913 0.6456 0.2120 0" price="1500"/>
-		<baseMaterialConfiguration name="$l10n_YELLOW2" material="0" color="0.5054 0.3066 0.0231 0" price="1500"/>
-		<baseMaterialConfiguration name="$l10n_YELLOW3" material="0" color="0.8227 0.9131 0.0000 0" price="1500"/>
-		<baseMaterialConfiguration name="Violet 1" material="0" color="0.0802 0.0513 0.7231 0" price="1500"/>
-		<baseMaterialConfiguration name="Violet 2" material="0" color="0.0090 0.0014 0.0619 0" price="1500"/>
-		<baseMaterialConfiguration name="NAVY" material="0" color="0.0529 0.0865 0.0242 1" price="1500"/>
-		<baseMaterialConfiguration name="$l10n_SPECIALBLUE1METAL" material="27" color="0 0 1 0" price="2500"/>
-		<baseMaterialConfiguration name="$l10n_SPECIALYELLOWMETAL" material="27" color="1.0000 0.7231 0.0000 0" price="2500"/>
-		<baseMaterialConfiguration name="$l10n_SPECIALBLUE2METAL" material="27" color="0 0.09 0.09 0" price="2500"/>
-		<baseMaterialConfiguration name="$l10n_SPECIALGREENMETAL" material="27" color="0.488 0.687 0.027" price="2500" />
-		<baseMaterialConfiguration name="$l10n_MANREDMETAL" material="27" color="0.5605 0.0037 0.0037 0" price="2500"/>
-		<baseMaterialConfiguration name="$l10n_MANOLDGREENMETAL" material="27" color="0.1878 0.3006 0.2159 0" price="2500"/>
-		<baseMaterialConfiguration name="MAN Beige Metal" material="27" color="0.3021 0.2549 0.1734 0" price="2500"/>
-		<baseMaterialConfiguration name="$l10n_BLACKMETAL" material="27" color="0 0 0 0" price="2500"/>
-		<baseMaterialConfiguration name="TATRA Metal" material="27" color="0.0200 0.2800 0.1900 0" price="2500"/>
-		<baseMaterialConfiguration name="$l10n_BROWNMETAL" material="27" color="0.0886 0.0203 0.0012 0" price="2500"/>
-		<baseMaterialConfiguration name="$l10n_BLUE1METAL" material="27" color="0.0000 0.4047 0.7519 0" price="2500"/>
-		<baseMaterialConfiguration name="$l10n_BLUE2METAL" material="27" color="0.0055 0.0170 0.0265 0" price="2500"/>
-		<baseMaterialConfiguration name="$l10n_BLUE3METAL" material="27" color="0.0019 0.0059 0.0090 0" price="2500"/>
-		<baseMaterialConfiguration name="$l10n_GREEN1METAL" material="27" color="0.1070 0.2086 0.2462 0" price="2500"/>
-		<baseMaterialConfiguration name="$l10n_GREEN2METAL" material="27" color="0.0265 0.6592 0.3204 0" price="2500"/>
-		<baseMaterialConfiguration name="$l10n_GREEN3METAL" material="27" color="0.0072 0.2758 0.0528 0" price="2500"/>
-		<baseMaterialConfiguration name="$l10n_GREEN4METAL" material="27" color="0.0000 1.0000 0.0415 0" price="2500"/>
-		<baseMaterialConfiguration name="Pink Metal" material="27" color="0.5924 0.1871 0.3723 0" price="2500"/>
-		<baseMaterialConfiguration name="$l10n_PINK/REDMETAL" material="27" color="0.8751 0.0017 0.0303 0" price="2500"/>
-		<baseMaterialConfiguration name="$l10n_BERRYMETAL" material="27" color="0.1087 0.0210 0.0370 0" price="2500"/>
-		<baseMaterialConfiguration name="$l10n_WHITEMETAL" material="27" color="1.0000 1.0000 1.0000 0" price="2500"/>
-		<baseMaterialConfiguration name="Orange Metal" material="27" color="0.9157 0.1220 0.0066 0" price="2500"/>
-		<baseMaterialConfiguration name="$l10n_DARKGRAYMETAL" material="27" color="0.1220 0.1199 0.1199 0" price="2500"/>
-		<baseMaterialConfiguration name="$l10n_YELLOW1METAL" material="27" color="0.8913 0.6456 0.2120 0" price="2500"/>
-		<baseMaterialConfiguration name="$l10n_YELLOW2METAL" material="27" color="0.5054 0.3066 0.0231 0" price="2500"/>
-		<baseMaterialConfiguration name="$l10n_YELLOW3METAL" material="27" color="0.8227 0.9131 0.0000 0" price="2500"/>
-		<baseMaterialConfiguration name="Violet 1 Metal" material="27" color="0.0802 0.0513 0.7231 0" price="2500"/>
-		<baseMaterialConfiguration name="Violet 2 Metal" material="27" color="0.0090 0.0014 0.0619 0" price="2500"/>
-		<baseMaterialConfiguration name="NAVY Metal" material="27" color="0.0529 0.0865 0.0242 1" price="2500"/>
+		<baseMaterialConfiguration name="DennisK Dark Blue" 	color="0.005 0.001 0.533"/>
+		<baseMaterialConfiguration name="DennisK Light Blue" 	color="0.000 0.776 1.000"/>
+		<baseMaterialConfiguration name="DennisK Black" 		color="0 0 0"/>
+		<baseMaterialConfiguration name="Black Matt" 			color="0.015 0.015 0.015" material="23"/>
 		<material name="goldhoferStzVp2_mat" shaderParameter="colorMat0" />
     </baseMaterialConfigurations>
 	
@@ -609,113 +486,113 @@
     </design5Configurations>
 
     <i3dMappings>
-        <i3dMapping id="frontPart" node="0>0" />
-        <i3dMapping id="attacherJoint" node="0>0|0" />
-        <i3dMapping id="backPartPhysics" node="0>0|1" />
-        <i3dMapping id="backPart" node="0>0|2" />
-        <i3dMapping id="wheels" node="0>0|2|0" />
-        <i3dMapping id="axisFrontLeftWheel" node="0>0|2|0|0" />
-        <i3dMapping id="axisFrontLeftRepr" node="0>0|2|0|0|0" />
-		<i3dMapping id="axisFrontLeftRepr2" node="0>0|2|0|0|1" />
-        <i3dMapping id="axisFrontRightWheel" node="0>0|2|0|1" />
-        <i3dMapping id="axisFrontRightRepr" node="0>0|2|0|1|0" />
-		<i3dMapping id="axisFrontRightRepr2" node="0>0|2|0|1|1" />
-        <i3dMapping id="axisMiddleLeftWheel" node="0>0|2|0|2" />
-        <i3dMapping id="axisMiddleLeftRepr" node="0>0|2|0|2|0" />
-		<i3dMapping id="axisMiddleLeftRepr2" node="0>0|2|0|2|1" />
-        <i3dMapping id="axisMiddleRightWheel" node="0>0|2|0|3" />
-        <i3dMapping id="axisMiddleRightRepr" node="0>0|2|0|3|0" />
-		<i3dMapping id="axisMiddleRightRepr2" node="0>0|2|0|3|1" />   
-        <i3dMapping id="axisFrontLeft" node="0>0|2|1|0" />
-        <i3dMapping id="axisFrontLeftPartRot" node="0>0|2|1|0|0" />
-        <i3dMapping id="axisFrontLeftPart" node="0>0|2|1|0|0|0" />
-        <i3dMapping id="axisFrontLeftDummy" node="0>0|2|1|0|0|0|0" />
-        <i3dMapping id="hydraulicAxisFrontLeftRef" node="0>0|2|1|0|0|0|1" />
-        <i3dMapping id="hydraulicAxisFrontLeft" node="0>0|2|1|0|1" />
-        <i3dMapping id="hydraulicAxisFrontLeftPunch" node="0>0|2|1|0|1|0" />
-        <i3dMapping id="axisFrontRight" node="0>0|2|1|1" />
-        <i3dMapping id="axisFrontRightPartRot" node="0>0|2|1|1|0" />
-        <i3dMapping id="axisFrontRightPart" node="0>0|2|1|1|0|0" />
-        <i3dMapping id="axisFrontRightDummy" node="0>0|2|1|1|0|0|0" />
-        <i3dMapping id="hydraulicAxisFrontRightRef" node="0>0|2|1|1|0|0|1" />
-        <i3dMapping id="hydraulicAxisFrontRight" node="0>0|2|1|1|1" />
-        <i3dMapping id="hydraulicAxisFrontRightPunch" node="0>0|2|1|1|1|0" />
-        <i3dMapping id="axisMiddleLeft" node="0>0|2|1|2" />
-        <i3dMapping id="axisMiddleLeftPartRot" node="0>0|2|1|2|0" />
-        <i3dMapping id="axisMiddleLeftPart" node="0>0|2|1|2|0|0" />
-        <i3dMapping id="axisMiddleLeftDummy" node="0>0|2|1|2|0|0|0" />
-        <i3dMapping id="hydraulicAxisMiddleLeftRef" node="0>0|2|1|2|0|0|1" />
-        <i3dMapping id="hydraulicAxisMiddleLeft" node="0>0|2|1|2|1" />
-        <i3dMapping id="hydraulicAxisMiddleLeftPunch" node="0>0|2|1|2|1|0" />
-        <i3dMapping id="axisMiddleRight" node="0>0|2|1|3" />
-        <i3dMapping id="axisMiddleRightPartRot" node="0>0|2|1|3|0" />
-        <i3dMapping id="axisMiddleRightPart" node="0>0|2|1|3|0|0" />
-        <i3dMapping id="axisMiddleRightDummy" node="0>0|2|1|3|0|0|0" />
-        <i3dMapping id="hydraulicAxisMiddleRightRef" node="0>0|2|1|3|0|0|1" />
-        <i3dMapping id="hydraulicAxisMiddleRight" node="0>0|2|1|3|1" />
-        <i3dMapping id="hydraulicAxisMiddleRightPunch" node="0>0|2|1|3|1|0" />
-        <i3dMapping id="rearPlateNumberLight_01_1" node="0>0|2|2|0|0" />
-        <i3dMapping id="rearPlateNumberLight_01_2" node="0>0|2|2|0|1" />
-        <i3dMapping id="redTriangle_01_1" node="0>0|2|2|0|2" />
-        <i3dMapping id="redTriangle_01_2" node="0>0|2|2|0|3" />
-        <i3dMapping id="workingLightSquare_03_1" node="0>0|2|2|0|4" />
-        <i3dMapping id="workingLightSquare_03_2" node="0>0|2|2|0|5" />
-        <i3dMapping id="rearMultipointLight_02_left" node="0>0|2|2|0|6" />
-        <i3dMapping id="rearMultipointLight_02_right" node="0>0|2|2|0|7" />
-        <i3dMapping id="workingLightCircle_02_1" node="0>0|2|2|0|8" />
-        <i3dMapping id="sideMarker_09Orange_1" node="0>0|2|12|1|1|0" />
-        <i3dMapping id="sideMarker_09Orange_2" node="0>0|2|12|1|1|1" />
-        <i3dMapping id="sideMarker_09Orange_3" node="0>0|2|12|1|1|2" />
-        <i3dMapping id="sideMarker_09Orange_4" node="0>0|2|12|1|0|0" />
-        <i3dMapping id="sideMarker_09Orange_5" node="0>0|2|12|1|0|1" />
-        <i3dMapping id="sideMarker_09Orange_6" node="0>0|2|12|1|0|2" />
-        <i3dMapping id="sideMarker_09Orange_7" node="0>0|2|12|0|1|0" />
-        <i3dMapping id="sideMarker_09Orange_8" node="0>0|2|12|0|1|1" />
-        <i3dMapping id="sideMarker_09Orange_9" node="0>0|2|12|0|1|2" />
-        <i3dMapping id="sideMarker_09Orange_10" node="0>0|2|12|0|0|0" />
-        <i3dMapping id="sideMarker_09Orange_11" node="0>0|2|12|0|0|1" />
-        <i3dMapping id="sideMarker_09Orange_12" node="0>0|2|12|0|0|2" />
-        <i3dMapping id="backLightsHigh" node="0>0|2|2|1|0" />
-        <i3dMapping id="workLightBackHigh" node="0>0|2|2|2|0" />
-        <i3dMapping id="turnLightLeftBack" node="0>0|2|2|3|0|0" />
-        <i3dMapping id="turnLightRightBack" node="0>0|2|2|3|1|0" />
-        <i3dMapping id="reverseLight" node="0>0|2|2|4|0" />
-        <i3dMapping id="dynamicMountTrigger" node="0>0|2|4|0" />
-        <i3dMapping id="ramps" node="0>0|3" />
-        <i3dMapping id="dynamicMountTriggerRef" node="0>0|4" />
-		<i3dMapping id="LED1" node="0>0|2|2|0|9" />
-		<i3dMapping id="LED2" node="0>0|2|2|0|10" />
-		<i3dMapping id="LED3" node="0>0|2|2|0|11" />
-		<i3dMapping id="LED4" node="0>0|2|2|0|12" />
-		<i3dMapping id="LED5" node="0>0|2|2|0|13" />
-		<i3dMapping id="LED6" node="0>0|2|2|0|14" />
-		<i3dMapping id="LED7" node="0>0|2|2|0|15" />
-		<i3dMapping id="LED8" node="0>0|2|2|0|16" />
-		<i3dMapping id="LED9" node="0>0|2|2|0|17" />
-		<i3dMapping id="LED10" node="0>0|2|2|0|18" />
-		<i3dMapping id="LED11" node="0>0|2|2|0|19" />
-		<i3dMapping id="LED12" node="0>0|2|2|0|20" />
-		<i3dMapping id="LED13" node="0>0|2|2|0|21" />
-		<i3dMapping id="LED14" node="0>0|2|2|0|22" />
-		<i3dMapping id="LED15" node="0>0|2|2|0|23" />
-		<i3dMapping id="LED16" node="0>0|2|2|0|24" />
-		<i3dMapping id="LED17" node="0>0|2|2|0|25" />
-		<i3dMapping id="LED18" node="0>0|2|2|0|26" />
-		<i3dMapping id="LED19" node="0>0|2|2|0|27" />
-		<i3dMapping id="LED20" node="0>0|2|2|0|28" />
-		<i3dMapping id="LED21" node="0>0|2|2|0|29" />
-		<i3dMapping id="LED22" node="0>0|2|2|0|30" />
-		<i3dMapping id="LED23" node="0>0|2|2|0|31" />
-		<i3dMapping id="LED24" node="0>0|2|2|0|32" />
-		<i3dMapping id="LED25" node="0>0|2|2|0|33" />
-		<i3dMapping id="LED26" node="0>0|2|2|0|34" />
-		<i3dMapping id="LED27" node="0>0|2|2|0|35" />
-		<i3dMapping id="LED28" node="0>0|2|2|0|36" />
-		<i3dMapping id="ausschub1" node="0>0|6|0" />
-		<i3dMapping id="ausschub2" node="0>0|6|1" />
-		<i3dMapping id="HRFF_GlubschieLio" node="0>0|2|2|0|37" />
-		<i3dMapping id="HRFF_GlubschieLiu" node="0>0|2|2|0|38" />
-		<i3dMapping id="HRFF_GlubschieReo" node="0>0|2|2|0|39" />
-		<i3dMapping id="HRFF_GlubschieReu" node="0>0|2|2|0|40" />
+        <i3dMapping id="frontPart" 						node="0>0" />
+        <i3dMapping id="attacherJoint" 					node="0>0|0" />
+        <i3dMapping id="backPartPhysics" 				node="0>0|1" />
+        <i3dMapping id="backPart" 						node="0>0|2" />
+        <i3dMapping id="wheels" 						node="0>0|2|0" />
+        <i3dMapping id="axisFrontLeftWheel" 			node="0>0|2|0|0" />
+        <i3dMapping id="axisFrontLeftRepr" 				node="0>0|2|0|0|0" />
+		<i3dMapping id="axisFrontLeftRepr2" 			node="0>0|2|0|0|1" />
+        <i3dMapping id="axisFrontRightWheel" 			node="0>0|2|0|1" />
+        <i3dMapping id="axisFrontRightRepr" 			node="0>0|2|0|1|0" />
+		<i3dMapping id="axisFrontRightRepr2" 			node="0>0|2|0|1|1" />
+        <i3dMapping id="axisMiddleLeftWheel" 			node="0>0|2|0|2" />
+        <i3dMapping id="axisMiddleLeftRepr" 			node="0>0|2|0|2|0" />
+		<i3dMapping id="axisMiddleLeftRepr2" 			node="0>0|2|0|2|1" />
+        <i3dMapping id="axisMiddleRightWheel" 			node="0>0|2|0|3" />
+        <i3dMapping id="axisMiddleRightRepr" 			node="0>0|2|0|3|0" />
+		<i3dMapping id="axisMiddleRightRepr2" 			node="0>0|2|0|3|1" />   
+        <i3dMapping id="axisFrontLeft" 					node="0>0|2|1|0" />
+        <i3dMapping id="axisFrontLeftPartRot" 			node="0>0|2|1|0|0" />
+        <i3dMapping id="axisFrontLeftPart" 				node="0>0|2|1|0|0|0" />
+        <i3dMapping id="axisFrontLeftDummy" 			node="0>0|2|1|0|0|0|0" />
+        <i3dMapping id="hydraulicAxisFrontLeftRef" 		node="0>0|2|1|0|0|0|1" />
+        <i3dMapping id="hydraulicAxisFrontLeft" 		node="0>0|2|1|0|1" />
+        <i3dMapping id="hydraulicAxisFrontLeftPunch"	node="0>0|2|1|0|1|0" />
+        <i3dMapping id="axisFrontRight" 				node="0>0|2|1|1" />
+        <i3dMapping id="axisFrontRightPartRot" 			node="0>0|2|1|1|0" />
+        <i3dMapping id="axisFrontRightPart" 			node="0>0|2|1|1|0|0" />
+        <i3dMapping id="axisFrontRightDummy" 			node="0>0|2|1|1|0|0|0" />
+        <i3dMapping id="hydraulicAxisFrontRightRef" 	node="0>0|2|1|1|0|0|1" />
+        <i3dMapping id="hydraulicAxisFrontRight" 		node="0>0|2|1|1|1" />
+        <i3dMapping id="hydraulicAxisFrontRightPunch" 	node="0>0|2|1|1|1|0" />
+        <i3dMapping id="axisMiddleLeft" 				node="0>0|2|1|2" />
+        <i3dMapping id="axisMiddleLeftPartRot" 			node="0>0|2|1|2|0" />
+        <i3dMapping id="axisMiddleLeftPart" 			node="0>0|2|1|2|0|0" />
+        <i3dMapping id="axisMiddleLeftDummy" 			node="0>0|2|1|2|0|0|0" />
+        <i3dMapping id="hydraulicAxisMiddleLeftRef" 	node="0>0|2|1|2|0|0|1" />
+        <i3dMapping id="hydraulicAxisMiddleLeft" 		node="0>0|2|1|2|1" />
+        <i3dMapping id="hydraulicAxisMiddleLeftPunch" 	node="0>0|2|1|2|1|0" />
+        <i3dMapping id="axisMiddleRight" 				node="0>0|2|1|3" />
+        <i3dMapping id="axisMiddleRightPartRot" 		node="0>0|2|1|3|0" />
+        <i3dMapping id="axisMiddleRightPart" 			node="0>0|2|1|3|0|0" />
+        <i3dMapping id="axisMiddleRightDummy" 			node="0>0|2|1|3|0|0|0" />
+        <i3dMapping id="hydraulicAxisMiddleRightRef" 	node="0>0|2|1|3|0|0|1" />
+        <i3dMapping id="hydraulicAxisMiddleRight" 		node="0>0|2|1|3|1" />
+        <i3dMapping id="hydraulicAxisMiddleRightPunch" 	node="0>0|2|1|3|1|0" />
+        <i3dMapping id="rearPlateNumberLight_01_1" 		node="0>0|2|2|0|0" />
+        <i3dMapping id="rearPlateNumberLight_01_2" 		node="0>0|2|2|0|1" />
+        <i3dMapping id="redTriangle_01_1" 				node="0>0|2|2|0|2" />
+        <i3dMapping id="redTriangle_01_2" 				node="0>0|2|2|0|3" />
+        <i3dMapping id="workingLightSquare_03_1" 		node="0>0|2|2|0|4" />
+        <i3dMapping id="workingLightSquare_03_2" 		node="0>0|2|2|0|5" />
+        <i3dMapping id="rearMultipointLight_02_left" 	node="0>0|2|2|0|6" />
+        <i3dMapping id="rearMultipointLight_02_right" 	node="0>0|2|2|0|7" />
+        <i3dMapping id="workingLightCircle_02_1" 		node="0>0|2|2|0|8" />
+        <i3dMapping id="sideMarker_09Orange_1" 			node="0>0|2|12|1|1|0" />
+        <i3dMapping id="sideMarker_09Orange_2" 			node="0>0|2|12|1|1|1" />
+        <i3dMapping id="sideMarker_09Orange_3" 			node="0>0|2|12|1|1|2" />
+        <i3dMapping id="sideMarker_09Orange_4" 			node="0>0|2|12|1|0|0" />
+        <i3dMapping id="sideMarker_09Orange_5" 			node="0>0|2|12|1|0|1" />
+        <i3dMapping id="sideMarker_09Orange_6" 			node="0>0|2|12|1|0|2" />
+        <i3dMapping id="sideMarker_09Orange_7" 			node="0>0|2|12|0|1|0" />
+        <i3dMapping id="sideMarker_09Orange_8" 			node="0>0|2|12|0|1|1" />
+        <i3dMapping id="sideMarker_09Orange_9" 			node="0>0|2|12|0|1|2" />
+        <i3dMapping id="sideMarker_09Orange_10" 		node="0>0|2|12|0|0|0" />
+        <i3dMapping id="sideMarker_09Orange_11" 		node="0>0|2|12|0|0|1" />
+        <i3dMapping id="sideMarker_09Orange_12" 		node="0>0|2|12|0|0|2" />
+        <i3dMapping id="backLightsHigh" 				node="0>0|2|2|1|0" />
+        <i3dMapping id="workLightBackHigh" 				node="0>0|2|2|2|0" />
+        <i3dMapping id="turnLightLeftBack" 				node="0>0|2|2|3|0|0" />
+        <i3dMapping id="turnLightRightBack" 			node="0>0|2|2|3|1|0" />
+        <i3dMapping id="reverseLight" 					node="0>0|2|2|4|0" />
+        <i3dMapping id="dynamicMountTrigger" 			node="0>0|2|4|0" />
+        <i3dMapping id="ramps" 							node="0>0|3" />
+        <i3dMapping id="dynamicMountTriggerRef" 		node="0>0|4" />
+		<i3dMapping id="LED1" 							node="0>0|2|2|0|9" />
+		<i3dMapping id="LED2" 							node="0>0|2|2|0|10" />
+		<i3dMapping id="LED3" 							node="0>0|2|2|0|11" />
+		<i3dMapping id="LED4" 							node="0>0|2|2|0|12" />
+		<i3dMapping id="LED5" 							node="0>0|2|2|0|13" />
+		<i3dMapping id="LED6" 							node="0>0|2|2|0|14" />
+		<i3dMapping id="LED7"							node="0>0|2|2|0|15" />
+		<i3dMapping id="LED8" 							node="0>0|2|2|0|16" />
+		<i3dMapping id="LED9" 							node="0>0|2|2|0|17" />
+		<i3dMapping id="LED10" 							node="0>0|2|2|0|18" />
+		<i3dMapping id="LED11" 							node="0>0|2|2|0|19" />
+		<i3dMapping id="LED12" 							node="0>0|2|2|0|20" />
+		<i3dMapping id="LED13" 							node="0>0|2|2|0|21" />
+		<i3dMapping id="LED14" 							node="0>0|2|2|0|22" />
+		<i3dMapping id="LED15" 							node="0>0|2|2|0|23" />
+		<i3dMapping id="LED16" 							node="0>0|2|2|0|24" />
+		<i3dMapping id="LED17" 							node="0>0|2|2|0|25" />
+		<i3dMapping id="LED18" 							node="0>0|2|2|0|26" />
+		<i3dMapping id="LED19" 							node="0>0|2|2|0|27" />
+		<i3dMapping id="LED20" 							node="0>0|2|2|0|28" />
+		<i3dMapping id="LED21" 							node="0>0|2|2|0|29" />
+		<i3dMapping id="LED22" 							node="0>0|2|2|0|30" />
+		<i3dMapping id="LED23" 							node="0>0|2|2|0|31" />
+		<i3dMapping id="LED24" 							node="0>0|2|2|0|32" />
+		<i3dMapping id="LED25" 							node="0>0|2|2|0|33" />
+		<i3dMapping id="LED26" 							node="0>0|2|2|0|34" />
+		<i3dMapping id="LED27" 							node="0>0|2|2|0|35" />
+		<i3dMapping id="LED28" 							node="0>0|2|2|0|36" />
+		<i3dMapping id="ausschub1" 						node="0>0|6|0" />
+		<i3dMapping id="ausschub2" 						node="0>0|6|1" />
+		<i3dMapping id="HRFF_GlubschieLio" 				node="0>0|2|2|0|37" />
+		<i3dMapping id="HRFF_GlubschieLiu" 				node="0>0|2|2|0|38" />
+		<i3dMapping id="HRFF_GlubschieReo" 				node="0>0|2|2|0|39" />
+		<i3dMapping id="HRFF_GlubschieReu" 				node="0>0|2|2|0|40" />
     </i3dMappings>
 </vehicle>
