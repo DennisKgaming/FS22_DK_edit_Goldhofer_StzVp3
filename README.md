@@ -88,6 +88,14 @@ Multiplayer is tested and supported.
         - Use RMB up and down to lift or lower the trailer at the front
         - Use LMB left and right to extend or shorten the trailer
 
+Check the release page for the most recent version of this mod: https://github.com/DennisKgaming/FS22_DK_edit_Goldhofer_StzVp3/releases
+
+Because GitHub has a certain way of packing a release please do the following:
+- Unpack zip file
+- Take out the main folder
+- When in use for multiplayer: Zip the folder you took out of the zip filefolder
+- Put (zip) folder in your mod directory
+
 
 ## Screenshots
 
